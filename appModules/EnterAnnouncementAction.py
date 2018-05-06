@@ -2,21 +2,21 @@
 # @Time    : 2018/5/4 16:01
 # @Author  : 'Robin Li
 # @Email   : liqinjia372135@163.com
-# @File    : AnnouncementAction.py
+# @File    : EnterAnnouncementAction.py
 # @Software: PyCharm
 
-import unittest
 from time import sleep
-from pageObjects.EnterAnnouncementPage import EnterAnnouncementPage
+from pageObjects.EnterAnnouncementPage import enterAnnouncementPage
 
-class AnnouncementAction(object):
+
+class enterAnnouncementAction(object):
     def __init__(self):
-        print('announcement...')
+        print('enter...')
 
     @staticmethod
-    def announcement(driver):
+    def announcement_enter(self):
         try:
-            announcement = EnterAnnouncementPage(driver)
+            announcement = enterAnnouncementPage(self)
             announcement.disclosureObj().click()
             sleep(3)
             announcement.listedinfoObj().click()
@@ -24,6 +24,3 @@ class AnnouncementAction(object):
             announcement.announcementObj().click()
         except Exception as e:
             raise e
-
-if __name__ == '__main__':
-    unittest.main()

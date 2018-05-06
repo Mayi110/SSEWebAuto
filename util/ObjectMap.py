@@ -8,6 +8,17 @@
 from selenium.webdriver.support.ui import WebDriverWait
 
 
+# class BasePage(object):
+#     def __init__(self,driver):
+#         self.driver = driver
+
+def openBrowser(driver,url):
+    try:
+        driver.get(driver,url)
+    except Exception as e:
+        raise e
+
+
 # 获取单个页面元素对象
 def getElement(driver,locateType,locatorExpression):
     try:

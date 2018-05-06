@@ -6,18 +6,23 @@
 # @Software: PyCharm
 
 from util.ObjectMap import *
-from selenium import webdriver
-import time
 from util.ParseConfigurationFile import ParseConfigFile
 
 
-class EnterAnnouncementPage(object):
+class enterAnnouncementPage(object):
+    # url='http://www.sse.com.cn'
 
     def __init__(self,driver):
         self.driver = driver
         self.parseCF = ParseConfigFile()
-        self.announcementOptions = self.parseCF.getItemsSection('announcement_menu')
+        self.announcementOptions = self.parseCF.getItemsSection('announcement_leftMenuPage')
         print(self.announcementOptions)
+
+    def openSSE(self,url):
+        try:
+            openBrowser(self.driver,url)
+        except Exception as e:
+            raise e
 
     def disclosureObj(self):
         try:
@@ -34,6 +39,7 @@ class EnterAnnouncementPage(object):
             return elementObj
         except Exception as e:
             raise e
+
     def announcementObj(self):
         try:
             locateType,locatorExpression = self.announcementOptions['leftMenuPage.announcement'.lower()].split('>')

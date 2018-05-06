@@ -7,22 +7,81 @@
 
 from selenium import webdriver
 import unittest
-import time
-from selenium.common.exceptions import WebDriverException
-import traceback
+from util.ParseConfigurationFile import ParseConfigFile
+from util.ObjectMap import *
 
 
-class TestDemo(unittest.TestCase):
-    def setUp(self):
-        self.driver = webdriver.Chrome()
+class searchAnnouncementPage(object):
 
-    def test_visitSogou(self):
-        url = 'http://www.sogou.com'
-        self.driver.get(url)
+    def __init__(self,driver):
+        self.driver = driver
+        self.parseCF = ParseConfigFile()
+        self.searchOptions = self.parseCF.getItemsSection('announcement_searchPage')
+        print(self.searchOptions)
 
-    def tearDown(self):
-        self.driver.quit()
+    def companyCodeObj(self):
+        try:
+            locateType,locatorExpression = self.searchOptions['searchPage.companyCode'.lower()].split('>')
+            elementObj = getElement(self.driver,locateType,locatorExpression)
+            return elementObj
+        except Exception as e:
+            raise e
 
+    def keyWordObj(self):
+        try:
+            locateType,locatorExpression = self.searchOptions['searchPage.keyWord'.lower()].split('>')
+            elementObj = getElement(self.driver,locateType,locatorExpression)
+            return elementObj
+        except Exception as e:
+            raise e
+
+    def announcementTypeObj(self):
+        try:
+            locateType,locatorExpression = self.searchOptions['searchPage.announcementType'.lower()].split('>')
+            elementObj = getElement(self.driver,locateType,locatorExpression)
+            return elementObj
+        except Exception as e:
+            raise e
+
+    def announcementStartDateObj(self):
+        try:
+            locateType,locatorExpression = self.searchOptions['searchPage.announcementStartDate'.lower()].split('>')
+            elementObj = getElement(self.driver,locateType,locatorExpression)
+            return elementObj
+        except Exception as e:
+            raise e
+
+    def announcementEndDateObj(self):
+        try:
+            locateType,locatorExpression = self.searchOptions['searchPage.announcementEndDate'.lower()].split('>')
+            elementObj = getElement(self.driver,locateType,locatorExpression)
+            return elementObj
+        except Exception as e:
+            raise e
+
+    def searchButtonObj(self):
+        try:
+            locateType,locatorExpression = self.searchOptions['searchPage.searchButton'.lower()].split('>')
+            elementObj = getElement(self.driver,locateType,locatorExpression)
+            return elementObj
+        except Exception as e:
+            raise e
+
+    def announcementLinkObj(self):
+        try:
+            locateType,locatorExpression = self.searchOptions['searchPage.announcementLink'.lower()].split('>')
+            elementObj = getElement(self.driver,locateType,locatorExpression)
+            return elementObj
+        except Exception as e:
+            raise e
+
+    def announcementCloseObj(self):
+        try:
+            locateType,locatorExpression = self.searchOptions['searchPage.announcementClose'.lower()].split('>')
+            elementObj = getElement(self.driver,locateType,locatorExpression)
+            return elementObj
+        except Exception as e:
+            raise e
 
 if __name__ == '__main__':
     unittest.main()
