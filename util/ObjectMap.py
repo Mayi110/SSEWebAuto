@@ -6,11 +6,8 @@
 # @Software: PyCharm
 
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support.ui import Select
 
-
-# class BasePage(object):
-#     def __init__(self,driver):
-#         self.driver = driver
 
 def openBrowser(driver,url):
     try:
@@ -33,5 +30,17 @@ def getElements(driver,locateType,locatorExpression):
     try:
         elements = WebDriverWait(driver,30).until(lambda x:x.find_elements(by=locateType, value=locatorExpression))
         return elements
+    except Exception as e:
+        raise e
+
+
+def getDropListByValue(driver,locateType,locatorExpression,value):
+    try:
+        elements = Select(WebDriverWait(driver,30).until(lambda x:x.find_elements(by=locateType, value=locatorExpression)))
+        all_options = elements.options
+        if all_options(value).is_enabled() and all_options(value).is_selected():
+            select_elements=elements.select_by_value(value)
+            print(select_elements.text)
+            return select_elements
     except Exception as e:
         raise e

@@ -8,6 +8,7 @@
 from selenium import webdriver
 import unittest
 from pageObjects.SearchAnnouncementPage import searchAnnouncementPage
+from time import sleep
 
 
 class searchAnnounceementAction(object):
@@ -15,26 +16,31 @@ class searchAnnounceementAction(object):
         print('search...')
 
     @staticmethod
-    def searchAnnouncement(driver,companyCode,keyword,type,startDate,endDate):
+    def searchAnnouncement(driver,companyCode,keyword,value,startDate,endDate):
         try:
             SA = searchAnnouncementPage(driver)
 
-            SA.companyCodeObj().clear()
             SA.companyCodeObj().send_keys(companyCode)
+            sleep(2)
 
-            SA.keyWordObj().clear()
             SA.keyWordObj().send_keys(keyword)
+            sleep(2)
 
-            SA.announcementTypeObj().select_by_value(type)
+            SA.announcementTypeObj(value=value)
+            sleep(2)
 
             SA.announcementStartDateObj().send_keys(startDate)
             SA.announcementEndDateObj().send_keys(endDate)
+            sleep(2)
 
             SA.searchButtonObj().click()
+            sleep(5)
 
             SA.announcementLinkObj().click()
+            sleep(2)
 
             SA.announcementCloseObj().click()
+            sleep(2)
         except Exception as e:
             raise e
 

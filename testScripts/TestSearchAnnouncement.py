@@ -5,26 +5,31 @@
 # @File    : TestSearchAnnouncement.py
 # @Software: PyCharm
 
-from selenium import webdriver
-import unittest
 import time
-from selenium.common.exceptions import WebDriverException
-import traceback
+from appModules.EnterAnnouncementAction import enterAnnouncementAction
+from appModules.SearchAnnouncementAction import searchAnnounceementAction
+from selenium import webdriver
 
 
-class TestDemo(unittest.TestCase):
-    def setUp(self):
-        self.driver = webdriver.Chrome()
+class SearchAnnouncementPageTest():
+    try:
+        driver = webdriver.Chrome()
+        driver.maximize_window()
+        driver.get('http://www.sse.com.cn')
+        driver.implicitly_wait(30)
 
-    def test_visitSogou(self):
-        url = 'http://www.sogou.com'
-        self.driver.get(url)
-
-    def tearDown(self):
-        self.driver.quit()
-
+        enterAnnouncementAction.announcement_enter(driver)
+        time.sleep(5)
+        searchAnnounceementAction.searchAnnouncement(driver,'600000','浦发银行','定期公告','2018-04-01','2018-05-07')
+        time.sleep(3)
+        assert '浦发银行' in driver.page_source
+    except Exception as e:
+        raise e
+    finally:
+        driver.quit()
 
 if __name__ == '__main__':
-    unittest.main()
+    SearchAnnouncementPageTest()
+    print('公告查询成功！')
 
 

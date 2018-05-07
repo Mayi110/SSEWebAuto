@@ -35,10 +35,10 @@ class searchAnnouncementPage(object):
         except Exception as e:
             raise e
 
-    def announcementTypeObj(self):
+    def announcementTypeObj(self,value):
         try:
             locateType,locatorExpression = self.searchOptions['searchPage.announcementType'.lower()].split('>')
-            elementObj = getElement(self.driver,locateType,locatorExpression)
+            elementObj = getDropListByValue(self.driver,locateType,locatorExpression,value)
             return elementObj
         except Exception as e:
             raise e
