@@ -9,13 +9,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.ui import Select
 
 
-def openBrowser(driver,url):
-    try:
-        driver.get(driver,url)
-    except Exception as e:
-        raise e
-
-
 # 获取单个页面元素对象
 def getElement(driver,locateType,locatorExpression):
     try:
@@ -44,3 +37,4 @@ def getDropListByValue(driver,locateType,locatorExpression,value):
             return select_elements
     except Exception as e:
         raise e
+

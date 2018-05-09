@@ -5,8 +5,6 @@
 # @File    : SearchAnnouncementPage.py
 # @Software: PyCharm
 
-from selenium import webdriver
-import unittest
 from util.ParseConfigurationFile import ParseConfigFile
 from util.ObjectMap import *
 
@@ -35,16 +33,26 @@ class searchAnnouncementPage(object):
         except Exception as e:
             raise e
 
-    def announcementTypeObj(self,value):
+    def announcementTypeObj(self):
         try:
             locateType,locatorExpression = self.searchOptions['searchPage.announcementType'.lower()].split('>')
-            elementObj = getDropListByValue(self.driver,locateType,locatorExpression,value)
+            elementObj = getElement(self.driver,locateType,locatorExpression)
+            return elementObj
+        except Exception as e:
+            raise e
+
+    def announcementTypeOfDQGGObj(self):
+        try:
+            locateType,locatorExpression = self.searchOptions['searchPage.announcementTypeOfDQGG'.lower()].split('>')
+            elementObj = getElement(self.driver,locateType,locatorExpression)
             return elementObj
         except Exception as e:
             raise e
 
     def announcementStartDateObj(self):
         try:
+            js = 'document.getElementById("start_date").removeAttribute("readonly");'
+            self.driver.execute_script(js)
             locateType,locatorExpression = self.searchOptions['searchPage.announcementStartDate'.lower()].split('>')
             elementObj = getElement(self.driver,locateType,locatorExpression)
             return elementObj
@@ -53,6 +61,8 @@ class searchAnnouncementPage(object):
 
     def announcementEndDateObj(self):
         try:
+            js = 'document.getElementById("end_date").removeAttribute("readonly");'
+            self.driver.execute_script(js)
             locateType,locatorExpression = self.searchOptions['searchPage.announcementEndDate'.lower()].split('>')
             elementObj = getElement(self.driver,locateType,locatorExpression)
             return elementObj
@@ -82,6 +92,3 @@ class searchAnnouncementPage(object):
             return elementObj
         except Exception as e:
             raise e
-
-if __name__ == '__main__':
-    unittest.main()

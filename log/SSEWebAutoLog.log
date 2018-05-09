@@ -1,0 +1,16 @@
+2018-05-09 15:56:50 TestSearchAnnouncement.py [line:23] INFO 公告查询测试开始。。。
+2018-05-09 15:57:07 TestSearchAnnouncement.py [line:26] INFO 启动浏览器，访问上交所网站
+2018-05-09 15:57:07 EnterAnnouncementAction.py [line:19] INFO 进入最新公告页面
+2018-05-09 15:57:07 EnterAnnouncementAction.py [line:23] INFO 点击 披露 链接
+2018-05-09 15:57:28 EnterAnnouncementAction.py [line:27] INFO 点击 上市公司信息 链接
+2018-05-09 15:57:32 EnterAnnouncementAction.py [line:31] INFO 点击 最新公告 链接
+2018-05-09 15:57:37 SearchAnnouncementAction.py [line:19] INFO 进入公告查询页面
+2018-05-09 15:57:37 SearchAnnouncementAction.py [line:23] INFO 输入公司代码或者简称
+2018-05-09 15:57:38 SearchAnnouncementAction.py [line:27] INFO 输入关键字
+2018-05-09 15:57:40 SearchAnnouncementAction.py [line:31] INFO 点击公告类型
+2018-05-09 15:57:41 SearchAnnouncementAction.py [line:35] INFO 选择公告类型：定期公告
+2018-05-09 15:57:42 SearchAnnouncementAction.py [line:39] INFO 选择开始日期
+2018-05-09 15:57:42 SearchAnnouncementAction.py [line:42] INFO 选择结束日期
+2018-05-09 15:57:43 SearchAnnouncementAction.py [line:46] INFO 单击查询按钮
+2018-05-09 15:57:49 SearchAnnouncementAction.py [line:50] INFO 单击第一条公告链接
+2018-05-09 15:57:57 SearchAnnouncementAction.py [line:54] INFO 关闭第一条公告
