@@ -27,14 +27,24 @@ def getElements(driver,locateType,locatorExpression):
         raise e
 
 
-def getDropListByValue(driver,locateType,locatorExpression,value):
+def select(driver,locateType,locatorExpression,value):
     try:
-        elements = Select(WebDriverWait(driver,30).until(lambda x:x.find_elements(by=locateType, value=locatorExpression)))
-        all_options = elements.options
-        if all_options(value).is_enabled() and all_options(value).is_selected():
-            select_elements=elements.select_by_value(value)
-            print(select_elements.text)
-            return select_elements
+        #element = WebDriverWait(driver,30).until(lambda x:x.find_element(by=locateType,value=locatorExpression))
+        element = driver.getElement(locateType,locatorExpression)
+        Select(element).select_by_value(value)
     except Exception as e:
         raise e
 
+def clear(driver,locateType,locatorExpression):
+    try:
+        #element = WebDriverWait(driver,30).until(lambda x:x.find_elements(by=locateType, value=locatorExpression))
+        element = driver.getElement(locateType,locatorExpression)
+        element.clear()
+    except Exception as e:
+        raise e
+
+def js(driver,script):
+    try:
+        driver.execute_script(script)
+    except Exception as e:
+        raise e
