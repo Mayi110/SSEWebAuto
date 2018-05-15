@@ -8,6 +8,7 @@
 from pageObjects.SSESearchPage import sseSearchPage
 from time import sleep
 from util.Log import *
+from action.PageAction import *
 
 
 class sseSearchAction(object):
@@ -15,8 +16,16 @@ class sseSearchAction(object):
         print('sseSearch....')
 
     @staticmethod
-    def sseSearchEnterAnnouncementPage(driver,companyCode,expectResult):
-        logging.info('场景：公司代码查询，进入公司公告页面 测试开始。。。')
+    def LaunchBrowser(browserName,url):
+        logging.info('打开浏览器：%s'%browserName)
+        open_browser(browserName)
+        logging.info('浏览器最大化')
+        maximaze_browser()
+        logging.info('访问被测地址：%s'%url)
+        visit_url(url)
+
+    @staticmethod
+    def sseSearchEnterWebSWDPage(companyCode,assertString):
         try:
             SS = sseSearchPage(driver)
 
@@ -29,13 +38,16 @@ class sseSearchAction(object):
             logging.info('切换窗口')
             SS.switchWindowObj()
             sleep(8)
-            logging.info('验证跳转页面元素:%s'%expectResult)
-            SS.assertAnnouncementPageElementObj(expectResult)
+            logging.info('验证跳转页面元素:%s'%assertString)
+            # SS.assertAnnouncementPageElementObj(assertString)
+            assert_string_in_pageSource(assertString)
+            logging.info('退出')
+            close_browser(driver)
         except Exception as e:
             raise e
 
     @staticmethod
-    def sseSearchEnterWebSWDPage(driver,companyCode):
+    def sseSearchEnterAnnouncementPage(driver,companyCode):
         logging.info('场景：公司代码查询，进入全站检索页面 测试开始。。。')
         try:
             SS = sseSearchPage(driver)

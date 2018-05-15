@@ -82,3 +82,76 @@
 2018-05-15 16:02:47 SSESearchAction.py [line:27] INFO 单击查询按钮
 2018-05-15 16:02:48 SSESearchAction.py [line:29] INFO 切换窗口
 2018-05-15 16:02:56 SSESearchAction.py [line:32] INFO 验证跳转页面元素:上市公司公告全文
+2018-05-15 20:25:03 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 20:25:08 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 20:26:21 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 20:26:26 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 20:26:27 SSESearchAction.py [line:24] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 20:29:31 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 20:29:36 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 20:29:37 SSESearchAction.py [line:24] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 20:31:50 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 20:31:55 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 20:31:57 SSESearchAction.py [line:24] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 20:32:46 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 20:32:51 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 20:32:52 SSESearchAction.py [line:24] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 20:34:57 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 20:35:02 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 20:35:03 SSESearchAction.py [line:24] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 20:35:07 SSESearchAction.py [line:29] INFO 场景：公司代码查询，进入公司公告页面 测试开始。。。
+2018-05-15 20:40:48 TestSSESearch.py [line:18] INFO 场景：公司代码查询，进入公司公告页面 测试开始。。。
+2018-05-15 20:40:48 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 20:40:53 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 20:40:54 SSESearchAction.py [line:24] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 20:48:43 TestSSESearch.py [line:18] INFO 场景：通过公司代码查询，进入全文检索页面 测试开始。。。
+2018-05-15 20:48:43 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 20:48:49 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 20:48:50 SSESearchAction.py [line:24] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 20:50:21 TestSSESearch.py [line:18] INFO 场景：通过公司代码查询，进入全文检索页面 测试开始。。。
+2018-05-15 20:50:21 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 20:50:27 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 20:50:28 SSESearchAction.py [line:24] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 20:53:30 TestSSESearch.py [line:18] INFO 场景：通过公司代码查询，进入全文检索页面 测试开始。。。
+2018-05-15 20:53:30 SSESearchAction.py [line:22] INFO 打开浏览器：chrome
+2018-05-15 20:53:35 SSESearchAction.py [line:24] INFO 浏览器最大化
+2018-05-15 20:53:36 SSESearchAction.py [line:26] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 21:15:25 TestSSESearch.py [line:18] INFO 场景：通过公司代码查询，进入全文检索页面 测试开始。。。
+2018-05-15 21:15:25 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 21:15:30 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 21:15:32 SSESearchAction.py [line:24] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 21:17:38 TestSSESearch.py [line:18] INFO 场景：通过公司代码查询，进入全文检索页面 测试开始。。。
+2018-05-15 21:17:38 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 21:17:43 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 21:17:44 SSESearchAction.py [line:24] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 21:20:25 TestSSESearch.py [line:18] INFO 场景：通过公司代码查询，进入全文检索页面 测试开始。。。
+2018-05-15 21:20:25 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 21:20:30 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 21:20:31 SSESearchAction.py [line:24] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 21:33:10 TestSSESearch.py [line:18] INFO 场景：通过公司代码查询，进入全文检索页面 测试开始。。。
+2018-05-15 21:33:10 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 21:33:16 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 21:33:17 SSESearchAction.py [line:24] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 21:34:23 TestSSESearch.py [line:18] INFO 场景：通过公司代码查询，进入全文检索页面 测试开始。。。
+2018-05-15 21:34:23 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 21:34:29 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 21:34:30 SSESearchAction.py [line:24] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 21:35:23 TestSSESearch.py [line:18] INFO 场景：通过公司代码查询，进入全文检索页面 测试开始。。。
+2018-05-15 21:35:23 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 21:35:28 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 21:35:30 SSESearchAction.py [line:24] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 21:38:23 TestSSESearch.py [line:18] INFO 场景：通过公司代码查询，进入全文检索页面 测试开始。。。
+2018-05-15 21:38:23 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 21:38:28 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 21:38:29 SSESearchAction.py [line:24] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 21:38:32 SSESearchAction.py [line:32] INFO 清除官网全站检索搜索框内容
+2018-05-15 21:41:06 TestSSESearch.py [line:18] INFO 场景：通过公司代码查询，进入全文检索页面 测试开始。。。
+2018-05-15 21:41:06 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 21:41:11 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 21:41:12 SSESearchAction.py [line:24] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 21:41:15 SSESearchAction.py [line:32] INFO 清除官网全站检索搜索框内容
+2018-05-15 21:42:01 TestSSESearch.py [line:18] INFO 场景：通过公司代码查询，进入全文检索页面 测试开始。。。
+2018-05-15 21:42:01 SSESearchAction.py [line:20] INFO 打开浏览器：chrome
+2018-05-15 21:42:07 SSESearchAction.py [line:22] INFO 浏览器最大化
+2018-05-15 21:42:08 SSESearchAction.py [line:24] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-15 21:42:11 SSESearchAction.py [line:32] INFO 清除官网全站检索搜索框内容

@@ -12,12 +12,14 @@ from configparser import ConfigParser
 class ParseConfigFile(object):
     def __init__(self):
         self.cf = ConfigParser()
-        self.cf.read(pageElementLocatorPath)
+        self.cf.read(pageElementLocatorPath,encoding='utf-8')
 
     def getItemsSection(self,sectionName):
         optionsDic = dict(self.cf.items(sectionName))
+        print(optionsDic)
         return optionsDic
 
     def getOptionValue(self,sectionName,optionName):
         value = self.cf.get(sectionName,optionName)
+        print(value)
         return value

@@ -7,29 +7,25 @@
 
 from selenium import webdriver
 from appModules.SSESearchAction import sseSearchAction
+from util.Log import *
 
-def LaunchBrowser():
-    driver = webdriver.Chrome()
-    driver.maximize_window()
-    driver.get('http://www.sse.com.cn')
-    driver.implicitly_wait(30)
-    return driver
+driver = None
+
 
 def test_searchCompanyCodeEnterWebSearchPage():
+    global driver
     try:
-        driver = LaunchBrowser()
-        sseSearchAction.sseSearchEnterWebSWDPage(driver,'600015')
-        # assert '上市公司公告全文' in driver.page_source
+        logging.info('场景：通过公司代码查询，进入全文检索页面 测试开始。。。')
+        sseSearchAction.LaunchBrowser('chrome','http://www.sse.com.cn')
+        sseSearchAction.sseSearchEnterWebSWDPage('600015','华夏银行')
     except Exception as e:
         raise e
-    finally:
-        driver.quit()
 
-def test_searchCompanyCodeEnterAnnouncementPage():
-    try:
-        driver = LaunchBrowser()
-        sseSearchAction.sseSearchEnterAnnouncementPage(driver,'600015','上市公司公告全文')
-    except Exception as e:
-        raise e
-    finally:
-        driver.quit()
+# def test_searchCompanyCodeEnterAnnouncementPage():
+#     try:
+#         driver = LaunchBrowser()
+#         sseSearchAction.sseSearchEnterAnnouncementPage(driver,'600015','上市公司公告全文')
+#     except Exception as e:
+#         raise e
+#     finally:
+#         driver.quit()

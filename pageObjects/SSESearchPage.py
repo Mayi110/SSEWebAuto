@@ -7,6 +7,7 @@
 
 from util.ParseConfigurationFile import ParseConfigFile
 from util.ObjectMap import *
+from action.PageAction import *
 
 
 class sseSearchPage(object):
@@ -17,10 +18,11 @@ class sseSearchPage(object):
         self.searchOptions = self.parseCF.getItemsSection('sse_searchPage')
         print(self.searchOptions)
 
+
     def inputBoxObj(self):
         try:
             locateType,locatorExpression = self.searchOptions['searchPage.inputBox'.lower()].split('>')
-            elementObj = getElement(self.driver,locateType,locatorExpression)
+            elementObj = getElement(locateType, locatorExpression)
             return elementObj
         except Exception as e:
             raise e
@@ -28,23 +30,20 @@ class sseSearchPage(object):
     def searchButtonObj(self):
         try:
             locateType,locatorExpression = self.searchOptions['searchPage.submitButton'.lower()].split('>')
-            elementObj = getElement(self.driver,locateType,locatorExpression)
+            elementObj = getElement(locateType,locatorExpression)
             return elementObj
         except Exception as e:
             raise e
 
-    def assertWebSWDPageElementObj(self):
+    def assertWebSWDPageElementObj(self,assertString):
         try:
-           locateType,locatorExpression = self.searchOptions['searchPage.verifyWebswd'.lower()].split('>')
-           elementObj=assertKeyWord(self.driver,locateType,locatorExpression)
-           return elementObj
+            assert_string_in_pageSource(assertString)
         except Exception as e:
             raise e
 
-    def assertAnnouncementPageElementObj(self):
+    def assertAnnouncementPageElementObj(self,assertString):
         try:
-            locateType,locatorExpression = self.searchOptions['searchPage.verifyWebswd'.lower()].split('>')
-            getText(self.driver,locateType,locatorExpression)
+            assert_string_in_pageSource(assertString)
         except Exception as e:
             raise e
 
@@ -58,13 +57,9 @@ class sseSearchPage(object):
 
     def switchWindowObj(self):
         try:
-            operateWindowHandle(self.driver)
+            operate_window_handle()
         except Exception as e:
             raise e
-
-
-if __name__ == '__main__':
-    sseSearchPage.assertAnnouncementPageElementObj()
 
 
 
