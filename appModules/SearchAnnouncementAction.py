@@ -20,11 +20,11 @@ class searchAnnounceementAction(object):
         try:
             SA = searchAnnouncementPage(driver)
 
-            logging.info('输入公司代码或者简称')
+            logging.info('输入公司代码或者简称：%s'%companyCode)
             SA.companyCodeObj().send_keys(companyCode)
             sleep(1)
 
-            logging.info('输入关键字')
+            logging.info('输入关键字：%s'%keyword)
             SA.keyWordObj().send_keys(keyword)
             sleep(1)
 
@@ -36,10 +36,10 @@ class searchAnnounceementAction(object):
             SA.announcementTypeOfDQGGObj().click()
             sleep(1)
 
-            logging.info('选择开始日期')
+            logging.info('选择开始日期：%s'%startDate)
             SA.announcementStartDateObj().send_keys(startDate)
 
-            logging.info('选择结束日期')
+            logging.info('选择结束日期：%s'%endDate)
             SA.announcementEndDateObj().send_keys(endDate)
             sleep(1)
 

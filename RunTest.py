@@ -5,7 +5,8 @@
 # @File    : RunTest.py
 # @Software: PyCharm
 
-from testScripts.TestSearchAnnouncement import *
+from testScripts.TestSSESearch import *
 
 if __name__ == '__main__':
-    test_searchAnnouncement()
+    test_searchCompanyCodeEnterAnnouncementPage()
+    #test_searchCompanyCodeEnterWebSearchPage()

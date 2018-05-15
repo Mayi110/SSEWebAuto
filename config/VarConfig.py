@@ -9,3 +9,6 @@ import os
 
 parentDirPath = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 pageElementLocatorPath = parentDirPath+'\\config\\PageElementLocator.ini'
+
+ieDriverFilePath='c:\IEDriverServer'
+fireFoxDriverFilePath='c:\FireFoxDriverServer'

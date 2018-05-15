@@ -25,7 +25,7 @@ class sseSearchPage(object):
         except Exception as e:
             raise e
 
-    def seachButtonObj(self):
+    def searchButtonObj(self):
         try:
             locateType,locatorExpression = self.searchOptions['searchPage.submitButton'.lower()].split('>')
             elementObj = getElement(self.driver,locateType,locatorExpression)
@@ -33,14 +33,38 @@ class sseSearchPage(object):
         except Exception as e:
             raise e
 
-    def assertPageElement(self):
+    def assertWebSWDPageElementObj(self):
+        try:
+           locateType,locatorExpression = self.searchOptions['searchPage.verifyWebswd'.lower()].split('>')
+           elementObj=assertKeyWord(self.driver,locateType,locatorExpression)
+           return elementObj
+        except Exception as e:
+            raise e
+
+    def assertAnnouncementPageElementObj(self):
+        try:
+            locateType,locatorExpression = self.searchOptions['searchPage.verifyWebswd'.lower()].split('>')
+            getText(self.driver,locateType,locatorExpression)
+        except Exception as e:
+            raise e
+
+    def linkObj(self):
         try:
             locateType,locatorExpression = self.searchOptions['searchPage.submitButton'.lower()].split('>')
-            elementObj = getElement(self.driver,locateType,locatorExpression).text
+            elementObj = list_link(self.driver,locateType,locatorExpression)
             return elementObj
         except Exception as e:
             raise e
 
+    def switchWindowObj(self):
+        try:
+            operateWindowHandle(self.driver)
+        except Exception as e:
+            raise e
+
+
+if __name__ == '__main__':
+    sseSearchPage.assertAnnouncementPageElementObj()
 
 
 

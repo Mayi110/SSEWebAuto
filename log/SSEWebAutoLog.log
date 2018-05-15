@@ -14,3 +14,71 @@
 2018-05-09 15:57:43 SearchAnnouncementAction.py [line:46] INFO 单击查询按钮
 2018-05-09 15:57:49 SearchAnnouncementAction.py [line:50] INFO 单击第一条公告链接
 2018-05-09 15:57:57 SearchAnnouncementAction.py [line:54] INFO 关闭第一条公告
+2018-05-11 11:08:04 SSESearchAction.py [line:19] INFO 场景：公司代码查询，进入公司公告页面 测试开始。。。
+2018-05-11 11:08:04 SSESearchAction.py [line:23] INFO 清除官网全站检索搜索框内容
+2018-05-11 11:08:05 SSESearchAction.py [line:25] INFO 官网全站检索搜索框输入查询公司代码：600015
+2018-05-11 11:08:05 SSESearchAction.py [line:27] INFO 官网全站检索搜索框内容：600015
+2018-05-11 11:08:13 SSESearchAction.py [line:30] INFO 验证跳转页面元素：全站检索
+2018-05-11 11:18:36 SSESearchAction.py [line:19] INFO 场景：公司代码查询，进入公司公告页面 测试开始。。。
+2018-05-11 11:18:36 SSESearchAction.py [line:23] INFO 清除官网全站检索搜索框内容
+2018-05-11 11:18:36 SSESearchAction.py [line:25] INFO 官网全站检索搜索框输入查询公司代码：600015
+2018-05-11 11:18:37 SSESearchAction.py [line:27] INFO 官网全站检索搜索框内容：600015
+2018-05-11 11:18:45 SSESearchAction.py [line:30] INFO 验证跳转页面元素
+2018-05-11 11:22:02 SSESearchAction.py [line:19] INFO 场景：公司代码查询，进入公司公告页面 测试开始。。。
+2018-05-11 11:22:02 SSESearchAction.py [line:23] INFO 清除官网全站检索搜索框内容
+2018-05-11 11:22:03 SSESearchAction.py [line:25] INFO 官网全站检索搜索框输入查询公司代码：600015
+2018-05-11 11:22:03 SSESearchAction.py [line:27] INFO 单击查询按钮
+2018-05-11 11:22:11 SSESearchAction.py [line:30] INFO 验证跳转页面元素
+2018-05-11 11:24:22 SSESearchAction.py [line:19] INFO 场景：公司代码查询，进入公司公告页面 测试开始。。。
+2018-05-11 11:24:22 SSESearchAction.py [line:23] INFO 清除官网全站检索搜索框内容
+2018-05-11 11:24:22 SSESearchAction.py [line:25] INFO 官网全站检索搜索框输入查询公司代码：600015
+2018-05-11 11:24:22 SSESearchAction.py [line:27] INFO 单击查询按钮
+2018-05-11 11:24:30 SSESearchAction.py [line:30] INFO 验证跳转页面元素
+2018-05-15 14:51:21 SSESearchAction.py [line:19] INFO 场景：公司代码查询，进入公司公告页面 测试开始。。。
+2018-05-15 14:51:21 SSESearchAction.py [line:23] INFO 清除官网全站检索搜索框内容
+2018-05-15 14:51:22 SSESearchAction.py [line:25] INFO 官网全站检索搜索框输入查询公司代码：600015
+2018-05-15 14:51:22 SSESearchAction.py [line:27] INFO 单击查询按钮
+2018-05-15 14:51:22 SSESearchAction.py [line:29] INFO 切换窗口
+2018-05-15 14:51:30 SSESearchAction.py [line:32] INFO 验证跳转页面元素
+2018-05-15 14:57:21 SSESearchAction.py [line:19] INFO 场景：公司代码查询，进入公司公告页面 测试开始。。。
+2018-05-15 14:57:21 SSESearchAction.py [line:23] INFO 清除官网全站检索搜索框内容
+2018-05-15 14:57:21 SSESearchAction.py [line:25] INFO 官网全站检索搜索框输入查询公司代码：600015
+2018-05-15 14:57:21 SSESearchAction.py [line:27] INFO 单击查询按钮
+2018-05-15 14:57:21 SSESearchAction.py [line:29] INFO 切换窗口
+2018-05-15 14:57:29 SSESearchAction.py [line:32] INFO 验证跳转页面元素
+2018-05-15 14:59:24 SSESearchAction.py [line:19] INFO 场景：公司代码查询，进入公司公告页面 测试开始。。。
+2018-05-15 14:59:24 SSESearchAction.py [line:23] INFO 清除官网全站检索搜索框内容
+2018-05-15 14:59:24 SSESearchAction.py [line:25] INFO 官网全站检索搜索框输入查询公司代码：600015
+2018-05-15 14:59:24 SSESearchAction.py [line:27] INFO 单击查询按钮
+2018-05-15 14:59:25 SSESearchAction.py [line:29] INFO 切换窗口
+2018-05-15 14:59:33 SSESearchAction.py [line:32] INFO 验证跳转页面元素
+2018-05-15 15:15:13 SSESearchAction.py [line:19] INFO 场景：公司代码查询，进入公司公告页面 测试开始。。。
+2018-05-15 15:15:13 SSESearchAction.py [line:23] INFO 清除官网全站检索搜索框内容
+2018-05-15 15:15:13 SSESearchAction.py [line:25] INFO 官网全站检索搜索框输入查询公司代码：600015
+2018-05-15 15:15:13 SSESearchAction.py [line:27] INFO 单击查询按钮
+2018-05-15 15:15:13 SSESearchAction.py [line:29] INFO 切换窗口
+2018-05-15 15:15:21 SSESearchAction.py [line:32] INFO 验证跳转页面元素:上市公司公告全文
+2018-05-15 15:23:13 SSESearchAction.py [line:19] INFO 场景：公司代码查询，进入公司公告页面 测试开始。。。
+2018-05-15 15:23:13 SSESearchAction.py [line:23] INFO 清除官网全站检索搜索框内容
+2018-05-15 15:23:13 SSESearchAction.py [line:25] INFO 官网全站检索搜索框输入查询公司代码：600015
+2018-05-15 15:23:13 SSESearchAction.py [line:27] INFO 单击查询按钮
+2018-05-15 15:23:13 SSESearchAction.py [line:29] INFO 切换窗口
+2018-05-15 15:23:21 SSESearchAction.py [line:32] INFO 验证跳转页面元素:上市公司公告全文
+2018-05-15 15:31:50 SSESearchAction.py [line:19] INFO 场景：公司代码查询，进入公司公告页面 测试开始。。。
+2018-05-15 15:31:50 SSESearchAction.py [line:23] INFO 清除官网全站检索搜索框内容
+2018-05-15 15:31:50 SSESearchAction.py [line:25] INFO 官网全站检索搜索框输入查询公司代码：600015
+2018-05-15 15:31:50 SSESearchAction.py [line:27] INFO 单击查询按钮
+2018-05-15 15:31:51 SSESearchAction.py [line:29] INFO 切换窗口
+2018-05-15 15:31:59 SSESearchAction.py [line:32] INFO 验证跳转页面元素:上市公司公告全文
+2018-05-15 15:33:45 SSESearchAction.py [line:19] INFO 场景：公司代码查询，进入公司公告页面 测试开始。。。
+2018-05-15 15:33:45 SSESearchAction.py [line:23] INFO 清除官网全站检索搜索框内容
+2018-05-15 15:34:43 SSESearchAction.py [line:19] INFO 场景：公司代码查询，进入公司公告页面 测试开始。。。
+2018-05-15 15:34:43 SSESearchAction.py [line:23] INFO 清除官网全站检索搜索框内容
+2018-05-15 15:34:43 SSESearchAction.py [line:25] INFO 官网全站检索搜索框输入查询公司代码：600015
+2018-05-15 15:34:43 SSESearchAction.py [line:27] INFO 单击查询按钮
+2018-05-15 16:02:47 SSESearchAction.py [line:19] INFO 场景：公司代码查询，进入公司公告页面 测试开始。。。
+2018-05-15 16:02:47 SSESearchAction.py [line:23] INFO 清除官网全站检索搜索框内容
+2018-05-15 16:02:47 SSESearchAction.py [line:25] INFO 官网全站检索搜索框输入查询公司代码：600015
+2018-05-15 16:02:47 SSESearchAction.py [line:27] INFO 单击查询按钮
+2018-05-15 16:02:48 SSESearchAction.py [line:29] INFO 切换窗口
+2018-05-15 16:02:56 SSESearchAction.py [line:32] INFO 验证跳转页面元素:上市公司公告全文
