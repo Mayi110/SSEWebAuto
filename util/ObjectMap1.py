@@ -1,21 +1,32 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2018/5/15 16:24
+# @Time    : 2018/5/4 15:03
 # @Author  : 'Robin Li
 # @Email   : liqinjia372135@163.com
-# @File    : PageAction.py
+# @File    : ObjectMap1.py
 # @Software: PyCharm
 
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium import webdriver
-from config.VarConfig import ieDriverFilePath
-from config.VarConfig import fireFoxDriverFilePath
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver import ActionChains
+from config.VarConfig import *
 
-# 定义全局 driver 变量
-driver = None
+# 获取单个页面元素对象
+def getElement(driver,locateType,locatorExpression):
+    try:
+        element = WebDriverWait(driver,30).until(lambda x:x.find_element(by=locateType,value=locatorExpression))
+        return element
+    except Exception as e:
+        raise e
 
-def open_browser(browserName,*arg):
-    global driver
+
+# 获取多个页面元素对象
+def getElements(driver,locateType,locatorExpression):
+    try:
+        elements = WebDriverWait(driver,30).until(lambda x:x.find_elements(by=locateType, value=locatorExpression))
+        return elements
+    except Exception as e:
+        raise e
+
+def open_browser(driver,browserName,*arg):
     try:
         if browserName.lower() == 'ie':
             driver = webdriver.Ie(executable_path= ieDriverFilePath)
@@ -26,40 +37,27 @@ def open_browser(browserName,*arg):
     except Exception as e:
         raise e
 
-def visit_url(url,*arg):
-    global driver
+def visit_url(driver,url,*arg):
     try:
         driver.get(url)
     except Exception as e:
         raise e
 
-def close_browser(*arg):
-    global driver
+def close_browser(driver,*arg):
     try:
         driver.quit()
     except Exception as e:
         raise e
 
 
-def sleep(sleepSeconds,*arg):
-    global driver
+def sleep(driver,sleepSeconds,*arg):
     try:
-        sleep(int(sleepSeconds))
+        sleep(driver,int(sleepSeconds))
     except Exception as e:
         raise e
 
 
-def select(locateType,locatorExpression,value):
-    global driver
-    try:
-        element = driver.getElement(locateType,locatorExpression)
-        Select(element).select_by_value(value)
-    except Exception as e:
-        raise e
-
-
-def clear(locateType,locatorExpression):
-    global driver
+def clear(driver,locateType,locatorExpression):
     try:
         element = driver.getElement(locateType,locatorExpression)
         element.clear()
@@ -67,25 +65,14 @@ def clear(locateType,locatorExpression):
         raise e
 
 
-def input_string(locateType,locatorExpression,inputContent):
-    global driver
+def input_string(driver,locateType,locatorExpression,inputContent):
     try:
         element = driver.getElement(locateType,locatorExpression)
         element.send_keys(inputContent)
     except Exception as e:
         raise e
 
-
-def js(script):
-    global driver
-    try:
-        driver.execute_script(script)
-    except Exception as e:
-        raise e
-
-
-def click(locateType,locatorExpression,*arg):
-    global driver
+def click(driver,locateType,locatorExpression,*arg):
     try:
         element = driver.getElement(locateType,locatorExpression)
         element.click()
@@ -93,8 +80,7 @@ def click(locateType,locatorExpression,*arg):
         raise e
 
 
-def assert_string_in_pageSource(assertString,*arg):
-    global driver
+def assert_string_in_pageSource(driver,assertString,*arg):
     try:
         assert assertString in driver.page_source,'%s not found in page source!'%assertString
     except AssertionError as e:
@@ -103,17 +89,7 @@ def assert_string_in_pageSource(assertString,*arg):
         raise e
 
 
-def list_link(locateType,locatorExpression):
-    global driver
-    try:
-        element = driver.getElement(locateType,locatorExpression)
-        ActionChains(driver).move_to_element(element).perform()
-    except Exception as e:
-        raise e
-
-
-def operate_window_handle():
-    global driver
+def operate_window_handle(driver):
     try:
         now_handle = driver.current_window_handle
         all_handles = driver.window_handles
@@ -124,9 +100,9 @@ def operate_window_handle():
         raise e
 
 
-def maximize_browser():
-    global driver
+def maximize_browser(driver):
     try:
         driver.maximize_window()
     except Exception as e:
         raise e
+

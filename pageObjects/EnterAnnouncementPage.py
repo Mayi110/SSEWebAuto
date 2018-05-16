@@ -5,7 +5,7 @@
 # @File    : EnterAnnouncementPage.py
 # @Software: PyCharm
 
-from util.ObjectMap import *
+from util.ObjectMap1 import *
 from util.ParseConfigurationFile import ParseConfigFile
 
 

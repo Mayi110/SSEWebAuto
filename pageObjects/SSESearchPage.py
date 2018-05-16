@@ -7,7 +7,6 @@
 
 from util.ParseConfigurationFile import ParseConfigFile
 from util.ObjectMap import *
-from action.PageAction import *
 
 
 class sseSearchPage(object):
@@ -16,8 +15,6 @@ class sseSearchPage(object):
         self.driver = driver
         self.parseCF = ParseConfigFile()
         self.searchOptions = self.parseCF.getItemsSection('sse_searchPage')
-        print(self.searchOptions)
-
 
     def inputBoxObj(self):
         try:
@@ -30,37 +27,18 @@ class sseSearchPage(object):
     def searchButtonObj(self):
         try:
             locateType,locatorExpression = self.searchOptions['searchPage.submitButton'.lower()].split('>')
-            elementObj = getElement(locateType,locatorExpression)
+            elementObj = getElement(locateType, locatorExpression)
             return elementObj
         except Exception as e:
             raise e
 
-    def assertWebSWDPageElementObj(self,assertString):
+    def companyCodeLinkObj(self):
         try:
-            assert_string_in_pageSource(assertString)
-        except Exception as e:
-            raise e
-
-    def assertAnnouncementPageElementObj(self,assertString):
-        try:
-            assert_string_in_pageSource(assertString)
-        except Exception as e:
-            raise e
-
-    def linkObj(self):
-        try:
-            locateType,locatorExpression = self.searchOptions['searchPage.submitButton'.lower()].split('>')
-            elementObj = list_link(self.driver,locateType,locatorExpression)
+            locateType,locatorExpression = self.searchOptions['searchPage.companyCodeLink'.lower()].split('>')
+            elementObj = getElement(locateType, locatorExpression)
             return elementObj
         except Exception as e:
             raise e
-
-    def switchWindowObj(self):
-        try:
-            operate_window_handle()
-        except Exception as e:
-            raise e
-
 
 
 
