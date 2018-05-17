@@ -26,7 +26,7 @@ class enterAnnouncementPage(object):
 
     def disclosureObj(self):
         try:
-            locateType,locatorExpression = self.announcementOptions['leftMenuPage.disclosure'.lower()].split('>')
+            locateType,locatorExpression = self.announcementOptions['leftMenuPage.ts_disclosure'.lower()].split('>')
             elementObj = getElement(self.driver,locateType,locatorExpression)
             return elementObj
         except Exception as e:

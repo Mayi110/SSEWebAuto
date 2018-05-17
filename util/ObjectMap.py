@@ -5,7 +5,7 @@
 # @File    : ObjectMap1.py
 # @Software: PyCharm
 
-from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support.ui import WebDriverWait,Select
 from selenium import webdriver
 from config.VarConfig import *
 import time
@@ -133,3 +133,17 @@ def get_title():
     except Exception as e:
         raise e
 
+def selectByValue(locateType,locatorExpression,value,*arg):
+    global driver
+    try:
+        element = WebDriverWait(driver,30).until(lambda x:x.find_element(by=locateType,value=locatorExpression))
+        Select(element).select_by_value(value)
+    except Exception as e:
+        raise e
+
+def js(script):
+    global driver
+    try:
+        driver.execute_script(script)
+    except Exception as e:
+        raise e
