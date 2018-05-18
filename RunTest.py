@@ -5,13 +5,22 @@
 # @File    : RunTest.py
 # @Software: PyCharm
 
-from testScripts.ts_disclosure.ts_credibility.ts_supervision.ts_measures import *
-from testScripts.ts_disclosure.ts_credibility.ts_supervision.ts_inquiries import *
-from testScripts.ts_disclosure.ts_credibility.ts_supervision.ts_promisho import *
+from HTMLTestRunner import HTMLTestRunner
+import unittest
+import time,os
 
-if __name__ == '__main__':
-    # test_searchCompanyCodeEnterAnnouncementPage()
-    # test_searchCompanyCodeEnterWebSearchPage()
-    # test_searchMeasuresByAllCondition()
-    # test_searchInquiriesByAllCondition()
-    test_searchPromishoByAllCondition()
+report_path = os.path.join(os.getcwd(),'testReport')
+case_path = os.path.join(os.getcwd(),'testCases')
+
+def all_case():
+    discover = unittest.defaultTestLoader.discover(case_path,pattern='tc_*.py')
+    return discover
+
+
+if __name__ == "__main__":
+    now = time.strftime("%Y-%m-%d %H_%M_%S")
+    report_abspath=os.path.join(report_path,now+' result.html')
+    fp = open(report_abspath,'wb')
+    runner = HTMLTestRunner(stream=fp,title='上交所官网自动化测试报告',description='环境：win7；浏览器：Chrome')
+    runner.run(all_case())
+    fp.close()

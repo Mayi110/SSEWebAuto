@@ -2,7 +2,7 @@
 # @Time    : 2018/5/17 11:07
 # @Author  : 'Robin Li
 # @Email   : liqinjia372135@163.com
-# @File    : ts_measures.py
+# @File    : tc_measures.py
 # @Software: PyCharm
 
 from selenium import webdriver

@@ -14,7 +14,7 @@ class measuresPage(object):
     def __init__(self,driver):
         self.driver = driver
         self.parseCF = ParseConfigFile()
-        self.searchOptions = self.parseCF.getItemsSection('supervision_measuresPage')
+        self.searchOptions = self.parseCF.getItemsSection('measuresPage')
 
     def inputBoxObj(self):
         try:

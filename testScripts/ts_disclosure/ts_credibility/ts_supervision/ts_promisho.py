@@ -2,7 +2,7 @@
 # @Time    : 2018/5/17 16:20
 # @Author  : 'Robin Li
 # @Email   : liqinjia372135@163.com
-# @File    : ts_promisho.py
+# @File    : tc_promisho.py
 # @Software: PyCharm
 
 from selenium import webdriver
