@@ -12,3 +12,5 @@ pageElementLocatorPath = parentDirPath+'\\config\\PageElementLocator.ini'
 
 ieDriverFilePath = 'c:\IEDriverServer'
 fireFoxDriverFilePath = 'c:\FireFoxDriverServer'
+
+screenPictureDir = parentDirPath + '\\exceptionPictures\\'

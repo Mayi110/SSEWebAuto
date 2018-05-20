@@ -10,10 +10,11 @@ from appModules.am_disclosure.am_credibility.am_supervision.am_inquiries import 
 from util.Log import *
 import unittest
 
+
 class inquiriesCase(unittest.TestCase):
-    ''''''
+    '''监管问询测试用例'''
     def test_searchInquiriesByAllCondition(self):
-        '''全条件查询'''
+        '''通过全条件查询监管问询公司信息'''
         try:
             logging.info('场景：通过监管公司全条件查询，进入pdf页面 测试开始。。。')
             inquiriesAction.LaunchBrowser('chrome','http://www.sse.com.cn/disclosure/credibility/supervision/inquiries/')

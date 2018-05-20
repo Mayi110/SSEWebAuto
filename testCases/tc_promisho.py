@@ -11,7 +11,9 @@ from util.Log import *
 import unittest
 
 class promishoCase(unittest.TestCase):
+    '''承诺履行测试用例'''
     def test_searchPromishoByAllCondition(self):
+        '''通过全条件查询承诺履行公司信息'''
         try:
             logging.info('场景：通过承诺履行全条件查询，进入详情页面 测试开始。。。')
             promishoAction.LaunchBrowser('chrome','http://www.sse.com.cn/disclosure/credibility/supervision/promisho/')

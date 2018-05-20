@@ -11,8 +11,10 @@ from action.commonAction import *
 import unittest
 
 class sumCase(unittest.TestCase):
+    '''融资融券汇总测试用例'''
 
     def test_searchSumByAllCondition(self):
+        '''通过全条件查询融资融券汇总信息'''
         try:
             logging.info('场景：通过全部条件查询融资融券汇总信息测试开始。。。')
             launchBrowser('chrome','http://www.sse.com.cn/market/othersdata/margin/sum/')

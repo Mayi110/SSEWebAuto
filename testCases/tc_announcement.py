@@ -10,8 +10,12 @@ from appModules.am_disclosure.am_listedinfo.am_announcement import announcementA
 from util.Log import *
 import unittest
 
+
 class announcementCase(unittest.TestCase):
+    '''最新公告测试用例'''
+
     def test_searchAnnouncementByAllCondition(self):
+        '''通过全部查询条件查询最新公告'''
         try:
             logging.info('场景：最新公告页面通过全部条件查询公告测试开始。。。')
             announcementAction.LaunchBrowser('chrome','http://www.sse.com.cn/disclosure/listedinfo/announcement/')

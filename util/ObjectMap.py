@@ -9,6 +9,8 @@ from selenium.webdriver.support.ui import WebDriverWait,Select
 from selenium import webdriver
 from config.VarConfig import *
 import time
+from util.DirAndTime import *
+from selenium.webdriver.chrome.options import Options
 
 driver = None
 
@@ -36,13 +38,17 @@ def getElements(locateType,locatorExpression):
     except Exception as e:
         raise e
 
+
 def open_browser(browserName,*arg):
+    # 打开浏览器
     global driver
     try:
         if browserName.lower() == 'ie':
             driver = webdriver.Ie(executable_path= ieDriverFilePath)
         elif browserName.lower() == 'chrome':
-            driver = webdriver.Chrome()
+            chrome_options = Options()
+            chrome_options.add_experimental_option('excludeSwitches',[''])
+            driver = webdriver.Chrome(chrome_options=chrome_options)
         else:
             driver = webdriver.Firefox(executable_path= fireFoxDriverFilePath)
     except Exception as e:
@@ -96,12 +102,22 @@ def click(locateType,locatorExpression,*arg):
     except Exception as e:
         raise e
 
+def capture_screen(*args):
+    global driver
+    currTime = getCurrentTime()
+    picNameAndPath = str(createCurrentDateDir()) + '\\' + str(currTime) + '.png'
+    try:
+        driver.get_screenshot_as_file(picNameAndPath.replace('\\', r'\\'))
+    except Exception as e:
+        raise e
+
 
 def assert_string_in_pageSource(assertString,*arg):
     global driver
     try:
         assert assertString in driver.page_source,'%s not found in page source!'%assertString
     except AssertionError as e:
+        driver.capture_screen()
         raise AssertionError(e)
     except Exception as e:
         raise e
@@ -147,3 +163,5 @@ def js(script):
         driver.execute_script(script)
     except Exception as e:
         raise e
+
+
