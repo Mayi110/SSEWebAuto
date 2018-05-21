@@ -5,9 +5,8 @@
 # @File    : ParsePageElementFile.py
 # @Software: PyCharm
 
-from util.ObjectMap import *
+from util.ObjectMap import BasePage
 from util.ParseConfigurationFile import ParseConfigFile
-from selenium.webdriver.support.ui import WebDriverWait
 
 class ParsePageElementFile(object):
     def  __init__(self,driver):
@@ -22,20 +21,21 @@ class ParsePageElementFile(object):
         try:
             locateType,locatorExpression = self.searchOptions[Options.lower()].split('>')
             # element = WebDriverWait(driver,30).until(lambda x:x.find_element(by=locateType, value=locatorExpression))
-            elementObj = getElement(self.driver,locateType, locatorExpression)
+            elementObj = BasePage.getElement(self.driver,locateType, locatorExpression)
             return elementObj
         except Exception as e:
             raise e
 
 if __name__ == '__main__':
     from selenium import webdriver
+    from util.ObjectMap import BasePage
     driver = webdriver.Chrome()
     driver.maximize_window()
     driver.get('http://www.baidu.com')
     pp = ParsePageElementFile(driver)
     aa = pp.getItemsSection('test')
     bb = pp.getOptions('test.case')
-    searchBox = getElement(driver,aa,bb)
+    searchBox = BasePage.getElement(webdriver,aa,bb)
     print(searchBox.tag_name)
     driver.quit()
 
