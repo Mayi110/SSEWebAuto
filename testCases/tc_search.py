@@ -31,7 +31,7 @@ class searchCase(unittest.TestCase):
             launchBrowser('chrome','http://www.sse.com.cn')
             # sseSearchAction.sseSearchEnterAnnouncementPage(webdriver,'白云机场')
             # assertPageElement('广州白云国际机场股份有限公司')
-            sseSearchAction.sseSearchEnterAnnouncementPage(webdriver, '浦发银行')
+            sseSearchAction.sseSearchEnterAnnouncementPage(webdriver, '浦发')
             assertPageElement('张江高科')
         except Exception as e:
             raise e

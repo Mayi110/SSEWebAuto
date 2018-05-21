@@ -8,6 +8,7 @@
 from pageObjects.po_market.po_othersdata.po_margin.po_detail import detailPage
 from util.Log import *
 from util.ObjectMap import *
+from action.pageAction import *
 
 
 class detailAction(object):

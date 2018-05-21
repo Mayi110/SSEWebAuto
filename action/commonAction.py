@@ -5,8 +5,10 @@
 # @File    : commonAction.py
 # @Software: PyCharm
 
-from util.ObjectMap import *
+
+
 from util.Log import *
+from action.pageAction import *
 
 def launchBrowser(browserName,url):
     '''打开测试页面'''

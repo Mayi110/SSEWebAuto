@@ -7,6 +7,7 @@
 
 from util.ParseConfigurationFile import ParseConfigFile
 from util.ObjectMap import *
+from action.pageAction import *
 
 
 class announcementPage(object):
@@ -19,7 +20,7 @@ class announcementPage(object):
     def companyCodeObj(self):
         try:
             locateType,locatorExpression = self.searchOptions['announcementPage.inputCode'.lower()].split('>')
-            elementObj = getElement(locateType,locatorExpression)
+            elementObj = getElement(self.driver,locateType,locatorExpression)
             return elementObj
         except Exception as e:
             raise e
@@ -27,7 +28,7 @@ class announcementPage(object):
     def keyWordObj(self):
         try:
             locateType,locatorExpression = self.searchOptions['announcementPage.keyWord'.lower()].split('>')
-            elementObj = getElement(locateType,locatorExpression)
+            elementObj = getElement(self.driver,locateType,locatorExpression)
             return elementObj
         except Exception as e:
             raise e
@@ -37,7 +38,7 @@ class announcementPage(object):
             javascript="document.getElementById('single_select_2').style.display='block';"
             js(javascript)
             locateType,locatorExpression = self.searchOptions['announcementPage.announcementType'.lower()].split('>')
-            elementObj = selectByValue(locateType,locatorExpression,value)
+            elementObj = selectByValue(self.driver,locateType,locatorExpression,value)
             return elementObj
         except Exception as e:
             raise e
@@ -47,7 +48,7 @@ class announcementPage(object):
             javascript = 'document.getElementById("start_date").removeAttribute("readonly");'
             js(javascript)
             locateType,locatorExpression = self.searchOptions['announcementPage.startDate'.lower()].split('>')
-            elementObj = getElement(locateType,locatorExpression)
+            elementObj = getElement(self.driver,locateType,locatorExpression)
             return elementObj
         except Exception as e:
             raise e
@@ -57,7 +58,7 @@ class announcementPage(object):
             javascript = 'document.getElementById("end_date").removeAttribute("readonly");'
             js(javascript)
             locateType,locatorExpression = self.searchOptions['announcementPage.endDate'.lower()].split('>')
-            elementObj = getElement(locateType,locatorExpression)
+            elementObj = getElement(self.driver,locateType,locatorExpression)
             return elementObj
         except Exception as e:
             raise e
@@ -65,7 +66,7 @@ class announcementPage(object):
     def searchButtonObj(self):
         try:
             locateType,locatorExpression = self.searchOptions['announcementPage.btnQuery'.lower()].split('>')
-            elementObj = getElement(locateType,locatorExpression)
+            elementObj = getElement(self.driver,locateType,locatorExpression)
             return elementObj
         except Exception as e:
             raise e
@@ -73,7 +74,7 @@ class announcementPage(object):
     def announcementLinkObj(self):
         try:
             locateType,locatorExpression = self.searchOptions['announcementPage.announcementLink'.lower()].split('>')
-            elementObj = getElement(locateType,locatorExpression)
+            elementObj = getElement(self.driver,locateType,locatorExpression)
             return elementObj
         except Exception as e:
             raise e
@@ -81,7 +82,7 @@ class announcementPage(object):
     def announcementCloseObj(self):
         try:
             locateType,locatorExpression = self.searchOptions['announcementPage.announcementClose'.lower()].split('>')
-            elementObj = getElement(locateType,locatorExpression)
+            elementObj = getElement(self.driver,locateType,locatorExpression)
             return elementObj
         except Exception as e:
             raise e

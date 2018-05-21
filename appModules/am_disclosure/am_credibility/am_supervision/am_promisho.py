@@ -8,6 +8,7 @@
 from pageObjects.po_disclosure.po_credibility.po_supervision.po_promisho import promishoPage
 from util.Log import *
 from util.ObjectMap import *
+from action.pageAction import *
 
 
 class promishoAction(object):
