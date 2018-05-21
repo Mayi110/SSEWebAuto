@@ -1367,3 +1367,21 @@
 2018-05-21 16:47:56 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn
 2018-05-21 16:48:24 commonAction.py [line:22] INFO 当前窗口的标题是:上海证券交易所
 2018-05-21 16:48:24 am_search.py [line:42] INFO 清除官网全站检索搜索框内容
+2018-05-21 17:57:12 tc_search.py [line:30] INFO 场景：通过公司代码查询，进入最新公告页面 测试开始。。。
+2018-05-21 17:57:12 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-21 17:57:18 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-21 17:57:19 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-21 17:57:30 commonAction.py [line:22] INFO 当前窗口的标题是:上海证券交易所
+2018-05-21 17:57:30 am_search.py [line:42] INFO 清除官网全站检索搜索框内容
+2018-05-21 18:48:47 tc_search.py [line:30] INFO 场景：通过公司代码查询，进入最新公告页面 测试开始。。。
+2018-05-21 18:48:47 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-21 18:48:53 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-21 18:48:54 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-21 18:49:02 commonAction.py [line:22] INFO 当前窗口的标题是:上海证券交易所
+2018-05-21 18:49:02 am_search.py [line:42] INFO 清除官网全站检索搜索框内容
+2018-05-21 19:58:33 tc_search.py [line:30] INFO 场景：通过公司代码查询，进入最新公告页面 测试开始。。。
+2018-05-21 19:58:33 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-21 19:58:39 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-21 19:58:40 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn
+2018-05-21 19:58:44 commonAction.py [line:22] INFO 当前窗口的标题是:上海证券交易所
+2018-05-21 19:58:44 am_search.py [line:41] INFO 清除官网全站检索搜索框内容

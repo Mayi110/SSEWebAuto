@@ -13,7 +13,7 @@ class sseSearchPage(object):
         # self.searchOptions = self.parseCF.getItemsSection('sse_searchPage')
         # ParsePageElementFile.getItemsSection(self,'sse_searchPage')
         self.driver = driver
-        self.parsePEF = ParsePageElementFile()
+        self.parsePEF = ParsePageElementFile(driver)
         self.parsePEF.getItemsSection('sse_searchPage')
 
     def inputBoxObj(self):
@@ -23,7 +23,8 @@ class sseSearchPage(object):
         #     return elementObj
         # except Exception as e:
         #     raise e
-        self.parsePEF.getOptions('searchPage.inputBox')
+        inputBox = self.parsePEF.getOptions('searchPage.inputBox')
+        return inputBox
 
 
     def searchButtonObj(self):
@@ -33,7 +34,8 @@ class sseSearchPage(object):
         #     return elementObj
         # except Exception as e:
         #     raise e
-        self.parsePEF.getOptions('searchPage.submitButton')
+        submitButton = self.parsePEF.getOptions('searchPage.submitButton')
+        return submitButton
 
     def companyCodeLinkObj(self):
         # try:
@@ -42,7 +44,25 @@ class sseSearchPage(object):
         #     return elementObj
         # except Exception as e:
         #     raise e
-        self.parsePEF.getOptions('searchPage.companyCodeLink')
+        companyCodeLink = self.parsePEF.getOptions('searchPage.companyCodeLink')
+        return companyCodeLink
+
+if __name__ == "__main__":
+    from selenium import webdriver
+    from time import sleep
+    driver = webdriver.Chrome()
+    driver.maximize_window()
+    driver.get('http://www.sse.com.cn')
+    sleep(2)
+    sp = sseSearchPage(driver)
+    sp.inputBoxObj().clear()
+    sleep(2)
+    sp.inputBoxObj().send_keys('浦发')
+    sleep(2)
+    sp.searchButtonObj().click()
+    sleep(2)
+    driver.quit()
+
 
 
 

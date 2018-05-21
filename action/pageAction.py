@@ -194,4 +194,12 @@ def js(script):
 
 if __name__ == "__main__":
     from selenium import webdriver
+    driver = webdriver.Chrome()
+    driver.maximize_window()
+    driver.get('http://www.baidu.com')
+    searchBox = getElement(driver,'id','kw')
+    print(searchBox.tag_name)
+    aList = getElements(driver,'tag name', 'a')
+    print(len(aList))
+    driver.quit()
     
