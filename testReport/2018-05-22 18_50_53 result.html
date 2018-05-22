@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>上交所官网自动化测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2018-05-21 16:45:27</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:23.666354</p>
-<p class='attribute'><strong>Status:</strong> Error 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2018-05-22 18:50:53</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:25.798476</p>
+<p class='attribute'><strong>Status:</strong> Pass 1</p>
 
 <p class='description'>环境：win7；浏览器：Chrome</p>
 </div>
@@ -221,70 +221,26 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='errorClass'>
-    <td>tc_search.searchCase: 全站检索测试用例</td>
+<tr class='passClass'>
+    <td>tc_sum.sumCase: 融资融券汇总测试用例</td>
+    <td>1</td>
     <td>1</td>
     <td>0</td>
     <td>0</td>
-    <td>1</td>
     <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
-<tr id='ft1.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_enterAnnouncementPageByCompanyCode: 通过公司代码查询，进入最新公告页面</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        error</a>
-
-    <div id='div_ft1.1' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.1: ...
-Traceback (most recent call last):
-  File "E:\GithubProject\SSEWebAuto\testCases\tc_search.py", line 37, in test_enterAnnouncementPageByCompanyCode
-    raise e
-  File "E:\GithubProject\SSEWebAuto\testCases\tc_search.py", line 34, in test_enterAnnouncementPageByCompanyCode
-    sseSearchAction.sseSearchEnterAnnouncementPage(webdriver, '浦发')
-  File "E:\GithubProject\SSEWebAuto\appModules\am_search\am_search.py", line 55, in sseSearchEnterAnnouncementPage
-    raise e
-  File "E:\GithubProject\SSEWebAuto\appModules\am_search\am_search.py", line 43, in sseSearchEnterAnnouncementPage
-    SS.inputBoxObj().clear()
-  File "E:\GithubProject\SSEWebAuto\pageObjects\po_search\po_search.py", line 26, in inputBoxObj
-    self.parsePEF.getOptions('searchPage.inputBox')
-  File "E:\GithubProject\SSEWebAuto\util\ParsePageElementFile.py", line 26, in getOptions
-    raise e
-  File "E:\GithubProject\SSEWebAuto\util\ParsePageElementFile.py", line 23, in getOptions
-    elementObj = getElement(locateType, locatorExpression)
-  File "E:\GithubProject\SSEWebAuto\util\ObjectMap.py", line 23, in getElement
-    raise e
-  File "E:\GithubProject\SSEWebAuto\util\ObjectMap.py", line 20, in getElement
-    element = WebDriverWait(driver,30).until(lambda x:x.find_element(by=locateType,value=locatorExpression))
-  File "C:\Python35\lib\site-packages\selenium-3.7.0-py3.5.egg\selenium\webdriver\support\wait.py", line 71, in until
-    value = method(self._driver)
-  File "E:\GithubProject\SSEWebAuto\util\ObjectMap.py", line 20, in &lt;lambda&gt;
-    element = WebDriverWait(driver,30).until(lambda x:x.find_element(by=locateType,value=locatorExpression))
-AttributeError: 'NoneType' object has no attribute 'find_element'
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_searchSumByAllCondition: 通过全条件查询融资融券汇总信息</div></td>
+    <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='total_row'>
     <td>Total</td>
     <td>1</td>
-    <td>0</td>
-    <td>0</td>
     <td>1</td>
+    <td>0</td>
+    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>

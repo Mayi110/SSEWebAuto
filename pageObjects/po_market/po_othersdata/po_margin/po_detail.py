@@ -7,7 +7,6 @@
 
 from util.ParseConfigurationFile import ParseConfigFile
 from util.ObjectMap import *
-from action.pageAction import *
 
 
 class detailPage(object):

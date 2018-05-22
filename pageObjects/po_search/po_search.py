@@ -4,65 +4,54 @@
 # @Email   : liqinjia372135@163.com
 # @File    : po_search.py
 # @Software: PyCharm
-from util.ParsePageElementFile import ParsePageElementFile
-from util.ParseConfigurationFile import *
-from util.ObjectMap import BasePage
+
+from util.ParseConfigurationFile import ParseConfigFile
+from util.ObjectMap import *
+
 
 class sseSearchPage(object):
 
-    def __init__(self):
+    def __init__(self,driver):
+        self.driver = driver
         self.parseCF = ParseConfigFile()
         self.searchOptions = self.parseCF.getItemsSection('sse_searchPage')
-        # ParsePageElementFile.getItemsSection(self,'sse_searchPage')
-        # self.driver = driver
-        # self.parsePEF = ParsePageElementFile(driver)
-        # self.parsePEF.getItemsSection('sse_searchPage')
 
     def inputBoxObj(self):
         try:
             locateType,locatorExpression = self.searchOptions['searchPage.inputBox'.lower()].split('>')
-            elementObj = BasePage(driver).getElement(locateType, locatorExpression)
+            elementObj = getElement(locateType, locatorExpression)
             return elementObj
         except Exception as e:
             raise e
-        # inputBox = self.parsePEF.getOptions('searchPage.inputBox')
-        # return inputBox
-
 
     def searchButtonObj(self):
         try:
             locateType,locatorExpression = self.searchOptions['searchPage.submitButton'.lower()].split('>')
-            elementObj = BasePage(driver).getElement(locateType, locatorExpression)
+            elementObj = getElement(locateType, locatorExpression)
             return elementObj
         except Exception as e:
             raise e
-        # submitButton = self.parsePEF.getOptions('searchPage.submitButton')
-        # return submitButton
 
     def companyCodeLinkObj(self):
         try:
             locateType,locatorExpression = self.searchOptions['searchPage.companyCodeLink'.lower()].split('>')
-            elementObj = BasePage(driver).getElement(locateType, locatorExpression)
+            elementObj = getElement(locateType, locatorExpression)
             return elementObj
         except Exception as e:
             raise e
-        # companyCodeLink = self.parsePEF.getOptions('searchPage.companyCodeLink')
-        # return companyCodeLink
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     from selenium import webdriver
-    from time import sleep
+    import time
     driver = webdriver.Chrome()
-    driver.maximize_window()
     driver.get('http://www.sse.com.cn')
-    sleep(2)
-    sp = sseSearchPage(webdriver)
-    sp.inputBoxObj().clear()
-    sleep(2)
-    sp.inputBoxObj().send_keys('浦发')
-    sleep(2)
-    sp.searchButtonObj().click()
-    sleep(2)
+    driver.maximize_window()
+    time.sleep(5)
+    ss = sseSearchPage(driver)
+    ss.inputBoxObj().clear()
+    ss.inputBoxObj().send_keys('600000')
+    ss.searchButtonObj().click()
+    time.sleep(5)
     driver.quit()
 
 

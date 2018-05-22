@@ -8,7 +8,6 @@
 from pageObjects.po_disclosure.po_credibility.po_supervision.po_measures import measuresPage
 from util.Log import *
 from util.ObjectMap import *
-from action.pageAction import *
 
 
 class measuresAction(object):

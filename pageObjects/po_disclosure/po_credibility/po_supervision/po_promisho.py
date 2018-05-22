@@ -7,7 +7,6 @@
 
 from util.ParseConfigurationFile import ParseConfigFile
 from util.ObjectMap import *
-from action.pageAction import *
 
 
 class promishoPage(object):
@@ -20,7 +19,7 @@ class promishoPage(object):
     def inputBoxObj(self):
         try:
             locateType,locatorExpression = self.searchOptions['promishoPage.inputCode'.lower()].split('>')
-            elementObj = getElement(self.driver,locateType, locatorExpression)
+            elementObj = getElement(locateType, locatorExpression)
             return elementObj
         except Exception as e:
             raise e
@@ -28,7 +27,7 @@ class promishoPage(object):
     def promiseMainNameObj(self):
         try:
             locateType,locatorExpression = self.searchOptions['promishoPage.promiseMainName'.lower()].split('>')
-            elementObj = getElement(self.driver,locateType, locatorExpression)
+            elementObj = getElement(locateType, locatorExpression)
             return elementObj
         except Exception as e:
             raise e
@@ -38,7 +37,7 @@ class promishoPage(object):
             javascript="document.getElementById('single_select_dyn_0').style.display='block';"
             js(javascript)
             locateType,locatorExpression = self.searchOptions['promishoPage.promiseType'.lower()].split('>')
-            elementObj = selectByValue(self.driver,locateType, locatorExpression,value)
+            elementObj = selectByValue(locateType, locatorExpression,value)
             return elementObj
         except Exception as e:
             raise e

@@ -8,7 +8,6 @@
 from pageObjects.po_market.po_othersdata.po_margin.po_sum import sumPage
 from util.Log import *
 from util.ObjectMap import *
-from action.pageAction import *
 
 
 class sumAction(object):
