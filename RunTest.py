@@ -5,7 +5,7 @@
 # @File    : RunTest.py
 # @Software: PyCharm
 
-from HTMLTestRunner import HTMLTestRunner
+import HTMLTestRunnerCN
 import unittest
 import time,os
 
@@ -21,6 +21,7 @@ if __name__ == "__main__":
     now = time.strftime("%Y-%m-%d %H_%M_%S")
     report_abspath=os.path.join(report_path,now+' result.html')
     fp = open(report_abspath,'wb')
-    runner = HTMLTestRunner(stream=fp,title='上交所官网自动化测试报告',description='环境：win7；浏览器：Chrome')
+    runner = HTMLTestRunnerCN.HTMLTestRunner(stream=fp,title='上交所官网自动化测试报告',description='环境：win7；浏览器：Chrome',
+                                             tester='李勤加')
     runner.run(all_case())
     fp.close()
