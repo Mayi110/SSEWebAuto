@@ -1555,3 +1555,70 @@
 2018-05-22 19:59:17 am_sum.py [line:42] INFO 单击查询按钮
 2018-05-22 19:59:22 commonAction.py [line:23] INFO 验证页面元素:20180517
 2018-05-22 19:59:22 commonAction.py [line:25] INFO 退出浏览器
+2018-05-23 10:54:44 tc_regular.py [line:21] INFO 场景：最新公告页面通过全部条件查询公告测试开始。。。
+2018-05-23 10:54:44 commonAction.py [line:12] INFO 打开浏览器：chrome
+2018-05-23 10:54:57 commonAction.py [line:14] INFO 浏览器最大化
+2018-05-23 10:54:58 commonAction.py [line:16] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/regular/
+2018-05-23 10:56:29 commonAction.py [line:19] INFO 当前窗口的标题是:定期报告 | 上海证券交易所
+2018-05-23 10:56:29 am_regular.py [line:22] INFO 输入公司代码或者简称：600165
+2018-05-23 10:56:30 am_regular.py [line:26] INFO 选择的公告类型是：YEARLY
+2018-05-23 11:03:01 tc_regular.py [line:22] INFO 场景：最新公告页面通过全部条件查询公告测试开始。。。
+2018-05-23 11:03:01 commonAction.py [line:12] INFO 打开浏览器：chrome
+2018-05-23 11:03:08 commonAction.py [line:14] INFO 浏览器最大化
+2018-05-23 11:03:09 commonAction.py [line:16] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/regular/
+2018-05-23 11:04:01 commonAction.py [line:19] INFO 当前窗口的标题是:定期报告 | 上海证券交易所
+2018-05-23 11:04:06 am_regular.py [line:22] INFO 输入公司代码或者简称：600165
+2018-05-23 11:04:07 am_regular.py [line:26] INFO 选择的公告类型是：YEARLY
+2018-05-23 11:04:08 am_regular.py [line:30] INFO 选择开始日期：2018-05-01
+2018-05-23 11:04:09 am_regular.py [line:33] INFO 选择结束日期：2018-05-23
+2018-05-23 11:04:10 am_regular.py [line:37] INFO 单击查询按钮
+2018-05-23 11:04:15 am_regular.py [line:41] INFO 单击第一条公告链接
+2018-05-23 11:04:21 am_regular.py [line:45] INFO 当前窗口的标题是:定期报告 | 上海证券交易所
+2018-05-23 15:37:28 tc_listing.py [line:22] INFO 场景：最新公告页面通过全部条件查询公告测试开始。。。
+2018-05-23 15:37:28 commonAction.py [line:12] INFO 打开浏览器：chrome
+2018-05-23 15:37:40 commonAction.py [line:14] INFO 浏览器最大化
+2018-05-23 15:37:41 commonAction.py [line:16] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/regular/
+2018-05-23 15:37:53 commonAction.py [line:19] INFO 当前窗口的标题是:定期报告 | 上海证券交易所
+2018-05-23 15:37:58 am_listing.py [line:24] INFO 输入公司代码或者简称：600010
+2018-05-23 15:38:00 am_listing.py [line:28] INFO 选择开始日期：2018-05-09
+2018-05-23 15:38:00 am_listing.py [line:31] INFO 选择结束日期：2018-05-23
+2018-05-23 15:38:01 am_listing.py [line:35] INFO 单击查询按钮
+2018-05-23 15:38:06 am_listing.py [line:39] INFO 单击第一条公告链接
+2018-05-23 15:40:12 tc_listing.py [line:22] INFO 场景：最新公告页面通过全部条件查询公告测试开始。。。
+2018-05-23 15:40:12 commonAction.py [line:12] INFO 打开浏览器：chrome
+2018-05-23 15:40:17 commonAction.py [line:14] INFO 浏览器最大化
+2018-05-23 15:40:19 commonAction.py [line:16] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/listing/
+2018-05-23 15:40:23 commonAction.py [line:19] INFO 当前窗口的标题是:发行上市公告 | 上海证券交易所
+2018-05-23 15:40:28 am_listing.py [line:24] INFO 输入公司代码或者简称：600010
+2018-05-23 15:40:30 am_listing.py [line:28] INFO 选择开始日期：2018-05-09
+2018-05-23 15:40:30 am_listing.py [line:31] INFO 选择结束日期：2018-05-23
+2018-05-23 15:40:31 am_listing.py [line:35] INFO 单击查询按钮
+2018-05-23 15:40:37 am_listing.py [line:39] INFO 单击第一条公告链接
+2018-05-23 15:43:58 tc_listing.py [line:22] INFO 场景：最新公告页面通过全部条件查询公告测试开始。。。
+2018-05-23 15:43:58 commonAction.py [line:12] INFO 打开浏览器：chrome
+2018-05-23 15:44:03 commonAction.py [line:14] INFO 浏览器最大化
+2018-05-23 15:44:04 commonAction.py [line:16] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/listing/
+2018-05-23 15:44:08 commonAction.py [line:19] INFO 当前窗口的标题是:发行上市公告 | 上海证券交易所
+2018-05-23 15:44:13 am_listing.py [line:24] INFO 输入公司代码或者简称：600010
+2018-05-23 15:44:14 am_listing.py [line:28] INFO 清除开始日期框中存在的日期
+2018-05-23 15:44:16 am_listing.py [line:32] INFO 选择开始日期：2018-05-09
+2018-05-23 15:44:17 am_listing.py [line:36] INFO 清除结束日期框中存在的日期
+2018-05-23 15:44:18 am_listing.py [line:40] INFO 选择结束日期：2018-05-23
+2018-05-23 15:44:19 am_listing.py [line:44] INFO 单击查询按钮
+2018-05-23 15:44:24 am_listing.py [line:48] INFO 单击第一条公告链接
+2018-05-23 15:44:30 commonAction.py [line:32] INFO 当前窗口的标题是:发行上市公告 | 上海证券交易所
+2018-05-23 15:44:30 commonAction.py [line:33] INFO 退出浏览器
+2018-05-23 16:00:46 tc_listing.py [line:22] INFO 场景：发行上市公告页面通过全部条件查询公告测试开始。。。
+2018-05-23 16:00:46 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-23 16:00:55 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-23 16:00:56 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/listing/
+2018-05-23 16:03:05 commonAction.py [line:22] INFO 当前窗口的标题是:发行上市公告 | 上海证券交易所
+2018-05-23 16:03:11 am_listing.py [line:24] INFO 输入公司代码或者简称：600010
+2018-05-23 16:03:12 am_listing.py [line:28] INFO 清除开始日期框中存在的日期
+2018-05-23 16:03:13 am_listing.py [line:32] INFO 选择开始日期：2018-05-09
+2018-05-23 16:03:14 am_listing.py [line:36] INFO 清除结束日期框中存在的日期
+2018-05-23 16:03:15 am_listing.py [line:40] INFO 选择结束日期：2018-05-23
+2018-05-23 16:03:17 am_listing.py [line:44] INFO 单击查询按钮
+2018-05-23 16:03:22 am_listing.py [line:48] INFO 单击第一条公告链接
+2018-05-23 16:03:28 commonAction.py [line:41] INFO 当前窗口的标题是:
+2018-05-23 16:03:28 commonAction.py [line:42] INFO 退出浏览器
