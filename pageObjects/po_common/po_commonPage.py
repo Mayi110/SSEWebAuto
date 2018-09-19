@@ -25,12 +25,41 @@ class commonPage(object):
         except Exception as e:
             raise e
 
+    def keyWordObj(self):
+        try:
+            locateType,locatorExpression = self.commonOptions['commonPage.keyWord'.lower()].split('>')
+            elementObj = getElement(locateType,locatorExpression)
+            return elementObj
+        except Exception as e:
+            raise e
 
     def announcementTypeObj(self,value):
         try:
             javascript="document.getElementById('single_select_2').style.display='block';"
             js(javascript)
-            locateType,locatorExpression = self.commonOptions['commonPage.announcementType'.lower()].split('>')
+            locateType,locatorExpression = self.commonOptions['commonPage.singleSelect2'.lower()].split('>')
+            elementObj = selectByValue(locateType,locatorExpression,value)
+            return elementObj
+        except Exception as e:
+            raise e
+
+    def singleSelectObj(self,value):
+        try:
+            # javascript="document.getElementsByClassName('single_select').style.display='block';"
+            javascript="document.querySelectorAll('select')[0].style.display='block';"
+            js(javascript)
+            locateType,locatorExpression = self.commonOptions['commonPage.singleSelect'.lower()].split('>')
+            elementObj = selectByValue(locateType,locatorExpression,value)
+            return elementObj
+        except Exception as e:
+            raise e
+
+    def singleSelect2Obj(self,value):
+        try:
+            javascript="document.getElementById('single_select_2').style.display='block';"
+            # javascript="document.querySelectorAll('select')[0].style.display='block';"
+            js(javascript)
+            locateType,locatorExpression = self.commonOptions['commonPage.singleSelect2'.lower()].split('>')
             elementObj = selectByValue(locateType,locatorExpression,value)
             return elementObj
         except Exception as e:
@@ -59,6 +88,16 @@ class commonPage(object):
     def searchButtonObj(self):
         try:
             locateType,locatorExpression = self.commonOptions['commonPage.btnQuery'.lower()].split('>')
+            elementObj = getElement(locateType,locatorExpression)
+            return elementObj
+        except Exception as e:
+            raise e
+
+    def singleDate(self):
+        try:
+            javascript = 'document.getElementById("start_date2").removeAttribute("readonly");'
+            js(javascript)
+            locateType,locatorExpression = self.commonOptions['commonPage.singleDate'.lower()].split('>')
             elementObj = getElement(locateType,locatorExpression)
             return elementObj
         except Exception as e:

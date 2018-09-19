@@ -1622,3 +1622,599 @@
 2018-05-23 16:03:22 am_listing.py [line:48] INFO 单击第一条公告链接
 2018-05-23 16:03:28 commonAction.py [line:41] INFO 当前窗口的标题是:
 2018-05-23 16:03:28 commonAction.py [line:42] INFO 退出浏览器
+2018-05-24 14:59:14 tc_periodic.py [line:34] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入公司个股页面测试开始。。。
+2018-05-24 14:59:14 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-24 14:59:34 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-24 14:59:36 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-24 14:59:45 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-24 14:59:50 am_periodic.py [line:59] INFO 选择的公告类型是：L011
+2018-05-24 14:59:52 am_periodic.py [line:63] INFO 清空公司代码或者简称输入框内容
+2018-05-24 14:59:53 am_periodic.py [line:67] INFO 输入公司代码或者简称：600010
+2018-05-24 14:59:54 am_periodic.py [line:71] INFO 清空日期内容
+2018-05-24 14:59:54 tc_periodic.py [line:22] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入定期公告页面测试开始。。。
+2018-05-24 14:59:54 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-24 15:00:01 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-24 15:00:02 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-24 15:00:08 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-24 15:01:41 tc_periodic.py [line:34] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入公司个股页面测试开始。。。
+2018-05-24 15:01:41 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-24 15:01:47 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-24 15:01:48 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-24 15:01:52 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-24 15:01:58 am_periodic.py [line:59] INFO 选择的公告类型是：L011
+2018-05-24 15:01:59 am_periodic.py [line:63] INFO 清空公司代码或者简称输入框内容
+2018-05-24 15:02:00 am_periodic.py [line:67] INFO 输入公司代码或者简称：600010
+2018-05-24 15:02:01 am_periodic.py [line:71] INFO 清空日期内容
+2018-05-24 15:02:01 am_periodic.py [line:74] INFO 选择日期：2018-04-20
+2018-05-24 15:02:01 am_periodic.py [line:77] INFO 单击查询按钮
+2018-05-24 15:02:06 am_periodic.py [line:81] INFO 点击 公司代码 链接
+2018-05-24 15:02:07 tc_periodic.py [line:22] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入定期公告页面测试开始。。。
+2018-05-24 15:02:07 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-24 15:02:11 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-24 15:02:13 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-24 15:02:19 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-24 15:02:24 am_periodic.py [line:23] INFO 选择的公告类型是：L011
+2018-05-24 15:02:25 am_periodic.py [line:27] INFO 清空公司代码或者简称输入框内容
+2018-05-24 15:02:26 am_periodic.py [line:31] INFO 输入公司代码或者简称：600010
+2018-05-24 15:02:28 am_periodic.py [line:35] INFO 清空日期内容
+2018-05-24 15:02:28 am_periodic.py [line:38] INFO 选择日期：2018-04-20
+2018-05-24 15:02:28 am_periodic.py [line:41] INFO 单击查询按钮
+2018-05-24 15:02:33 am_periodic.py [line:47] INFO 点击 实际披露日 链接
+2018-05-24 15:12:12 tc_periodic.py [line:33] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入公司个股页面测试开始。。。
+2018-05-24 15:12:12 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-24 15:12:22 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-24 15:12:23 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-24 15:12:52 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-24 15:12:57 am_periodic.py [line:59] INFO 选择的公告类型是：L011
+2018-05-24 15:12:58 am_periodic.py [line:63] INFO 清空公司代码或者简称输入框内容
+2018-05-24 15:12:59 am_periodic.py [line:67] INFO 输入公司代码或者简称：600010
+2018-05-24 15:13:00 am_periodic.py [line:77] INFO 单击查询按钮
+2018-05-24 15:13:05 am_periodic.py [line:81] INFO 点击 公司代码 链接
+2018-05-24 15:13:06 tc_periodic.py [line:22] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入定期公告页面测试开始。。。
+2018-05-24 15:13:06 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-24 15:25:43 tc_periodic.py [line:33] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入公司个股页面测试开始。。。
+2018-05-24 15:25:43 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-24 15:25:48 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-24 15:25:49 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-24 15:26:16 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-24 15:26:21 am_periodic.py [line:59] INFO 选择的公告类型是：L011
+2018-05-24 15:26:22 am_periodic.py [line:63] INFO 清空公司代码或者简称输入框内容
+2018-05-24 15:26:23 am_periodic.py [line:67] INFO 输入公司代码或者简称：600010
+2018-05-24 15:26:24 am_periodic.py [line:77] INFO 单击查询按钮
+2018-05-24 15:26:38 tc_periodic.py [line:33] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入公司个股页面测试开始。。。
+2018-05-24 15:26:38 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-24 15:26:43 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-24 15:26:44 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-24 15:27:01 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-24 15:27:06 am_periodic.py [line:59] INFO 选择的公告类型是：L011
+2018-05-24 15:27:07 am_periodic.py [line:63] INFO 清空公司代码或者简称输入框内容
+2018-05-24 15:27:08 am_periodic.py [line:67] INFO 输入公司代码或者简称：600010
+2018-05-24 15:27:09 am_periodic.py [line:77] INFO 单击查询按钮
+2018-05-24 15:27:14 am_periodic.py [line:81] INFO 点击 公司代码 链接
+2018-05-24 15:27:14 tc_periodic.py [line:22] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入定期公告页面测试开始。。。
+2018-05-24 15:27:14 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-24 15:27:21 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-24 15:27:22 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-24 15:27:53 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-24 15:28:01 am_periodic.py [line:23] INFO 选择的公告类型是：L011
+2018-05-24 15:28:02 am_periodic.py [line:27] INFO 清空公司代码或者简称输入框内容
+2018-05-24 15:28:03 am_periodic.py [line:31] INFO 输入公司代码或者简称：600010
+2018-05-24 15:28:04 am_periodic.py [line:41] INFO 单击查询按钮
+2018-05-24 15:28:09 am_periodic.py [line:47] INFO 点击 实际披露日 链接
+2018-05-24 15:33:19 tc_periodic.py [line:33] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入公司个股页面测试开始。。。
+2018-05-24 15:33:19 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-24 15:33:27 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-24 15:33:28 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-24 15:33:36 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-24 15:33:41 am_periodic.py [line:63] INFO 清空公司代码或者简称输入框内容
+2018-05-24 15:33:42 am_periodic.py [line:67] INFO 输入公司代码或者简称：600010
+2018-05-24 15:33:43 am_periodic.py [line:77] INFO 单击查询按钮
+2018-05-24 15:33:49 am_periodic.py [line:81] INFO 点击 公司代码 链接
+2018-05-24 15:33:49 tc_periodic.py [line:22] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入定期公告页面测试开始。。。
+2018-05-24 15:33:49 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-24 15:33:53 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-24 15:33:55 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-24 15:34:05 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-24 15:34:10 am_periodic.py [line:27] INFO 清空公司代码或者简称输入框内容
+2018-05-24 15:34:11 am_periodic.py [line:31] INFO 输入公司代码或者简称：600010
+2018-05-24 15:34:12 am_periodic.py [line:41] INFO 单击查询按钮
+2018-05-24 15:34:17 am_periodic.py [line:47] INFO 点击 实际披露日 链接
+2018-05-24 15:43:58 tc_periodic.py [line:33] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入公司个股页面测试开始。。。
+2018-05-24 15:43:58 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-24 15:44:02 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-24 15:44:03 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-24 15:44:53 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-24 15:44:58 am_periodic.py [line:63] INFO 清空公司代码或者简称输入框内容
+2018-05-24 15:44:59 am_periodic.py [line:67] INFO 输入公司代码或者简称：600010
+2018-05-24 15:45:01 am_periodic.py [line:77] INFO 单击查询按钮
+2018-05-24 15:45:06 am_periodic.py [line:81] INFO 点击 公司代码 链接
+2018-05-24 15:45:06 tc_periodic.py [line:22] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入定期公告页面测试开始。。。
+2018-05-24 15:45:06 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-24 15:45:10 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-24 15:45:11 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-24 15:47:04 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-24 15:47:12 am_periodic.py [line:27] INFO 清空公司代码或者简称输入框内容
+2018-05-24 15:47:13 am_periodic.py [line:31] INFO 输入公司代码或者简称：600010
+2018-05-24 15:47:14 am_periodic.py [line:41] INFO 单击查询按钮
+2018-05-24 15:47:19 am_periodic.py [line:47] INFO 点击 实际披露日 链接
+2018-05-24 15:59:47 tc_periodic.py [line:33] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入公司个股页面测试开始。。。
+2018-05-24 15:59:47 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-24 16:00:09 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-24 16:00:11 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-24 16:00:36 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-24 16:00:41 am_periodic.py [line:63] INFO 清空公司代码或者简称输入框内容
+2018-05-24 16:00:42 am_periodic.py [line:67] INFO 输入公司代码或者简称：600010
+2018-05-24 16:00:43 am_periodic.py [line:77] INFO 单击查询按钮
+2018-05-24 16:00:49 am_periodic.py [line:81] INFO 点击 公司代码 链接
+2018-05-24 16:00:49 tc_periodic.py [line:22] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入定期公告页面测试开始。。。
+2018-05-24 16:00:49 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-24 16:01:01 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-24 16:01:03 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-24 16:01:29 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-24 16:01:37 am_periodic.py [line:27] INFO 清空公司代码或者简称输入框内容
+2018-05-24 16:01:38 am_periodic.py [line:31] INFO 输入公司代码或者简称：600010
+2018-05-24 16:01:40 am_periodic.py [line:41] INFO 单击查询按钮
+2018-05-24 16:01:45 am_periodic.py [line:47] INFO 点击 实际披露日 链接
+2018-05-24 16:03:53 tc_periodic.py [line:33] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入公司个股页面测试开始。。。
+2018-05-24 16:03:53 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-24 16:03:58 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-24 16:03:59 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-24 16:04:07 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-24 16:04:12 am_periodic.py [line:63] INFO 清空公司代码或者简称输入框内容
+2018-05-24 16:04:13 am_periodic.py [line:67] INFO 输入公司代码或者简称：600010
+2018-05-24 16:04:14 am_periodic.py [line:77] INFO 单击查询按钮
+2018-05-24 16:04:20 am_periodic.py [line:81] INFO 点击 公司代码 链接
+2018-05-24 16:04:50 tc_periodic.py [line:22] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入定期公告页面测试开始。。。
+2018-05-24 16:04:50 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-24 16:04:55 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-24 16:04:56 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-24 16:05:29 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-24 16:05:34 am_periodic.py [line:27] INFO 清空公司代码或者简称输入框内容
+2018-05-24 16:05:35 am_periodic.py [line:31] INFO 输入公司代码或者简称：600010
+2018-05-24 16:05:36 am_periodic.py [line:41] INFO 单击查询按钮
+2018-05-24 16:05:41 am_periodic.py [line:47] INFO 点击 实际披露日 链接
+2018-05-25 08:58:50 tc_periodic.py [line:33] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入公司个股页面测试开始。。。
+2018-05-25 08:58:50 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-25 08:58:59 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-25 08:59:00 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-25 08:59:05 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-25 08:59:10 am_periodic.py [line:63] INFO 清空公司代码或者简称输入框内容
+2018-05-25 08:59:11 am_periodic.py [line:67] INFO 输入公司代码或者简称：600010
+2018-05-25 08:59:13 am_periodic.py [line:77] INFO 单击查询按钮
+2018-05-25 08:59:18 am_periodic.py [line:81] INFO 点击 公司代码 链接
+2018-05-25 08:59:48 tc_periodic.py [line:22] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入定期公告页面测试开始。。。
+2018-05-25 08:59:48 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-25 08:59:54 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-25 08:59:55 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-25 09:00:14 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-25 09:00:19 am_periodic.py [line:27] INFO 清空公司代码或者简称输入框内容
+2018-05-25 09:00:20 am_periodic.py [line:31] INFO 输入公司代码或者简称：600010
+2018-05-25 09:00:21 am_periodic.py [line:41] INFO 单击查询按钮
+2018-05-25 09:00:26 am_periodic.py [line:47] INFO 点击 实际披露日 链接
+2018-05-25 09:02:57 tc_periodic.py [line:33] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入公司个股页面测试开始。。。
+2018-05-25 09:02:57 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-25 09:03:01 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-25 09:03:03 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-25 09:03:07 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-25 09:03:12 am_periodic.py [line:63] INFO 清空公司代码或者简称输入框内容
+2018-05-25 09:03:13 am_periodic.py [line:67] INFO 输入公司代码或者简称：600010
+2018-05-25 09:03:14 am_periodic.py [line:77] INFO 单击查询按钮
+2018-05-25 09:03:19 am_periodic.py [line:81] INFO 点击 公司代码 链接
+2018-05-25 09:03:20 tc_periodic.py [line:22] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入定期公告页面测试开始。。。
+2018-05-25 09:03:20 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-25 09:03:24 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-25 09:03:25 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-25 09:03:30 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-25 09:03:38 am_periodic.py [line:27] INFO 清空公司代码或者简称输入框内容
+2018-05-25 09:03:39 am_periodic.py [line:31] INFO 输入公司代码或者简称：600010
+2018-05-25 09:03:40 am_periodic.py [line:41] INFO 单击查询按钮
+2018-05-25 09:03:45 am_periodic.py [line:47] INFO 点击 实际披露日 链接
+2018-05-25 09:03:51 commonAction.py [line:30] INFO 验证页面元素:定期报告
+2018-05-25 09:03:52 commonAction.py [line:32] INFO 退出浏览器
+2018-05-25 09:07:17 tc_periodic.py [line:33] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入公司个股页面测试开始。。。
+2018-05-25 09:07:17 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-25 09:07:23 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-25 09:07:24 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-25 09:07:30 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-25 09:07:35 am_periodic.py [line:63] INFO 清空公司代码或者简称输入框内容
+2018-05-25 09:07:36 am_periodic.py [line:67] INFO 输入公司代码或者简称：600010
+2018-05-25 09:07:38 am_periodic.py [line:77] INFO 单击查询按钮
+2018-05-25 09:07:43 am_periodic.py [line:81] INFO 点击 公司代码 链接
+2018-05-25 09:07:48 commonAction.py [line:30] INFO 验证页面元素:内蒙古包钢钢联股份有限公司600010
+2018-05-25 09:07:49 commonAction.py [line:32] INFO 退出浏览器
+2018-05-25 09:07:52 tc_periodic.py [line:22] INFO 场景：定期报告预约情况页面通过全部条件查询公告进入定期公告页面测试开始。。。
+2018-05-25 09:07:52 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-25 09:07:57 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-25 09:07:59 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-25 09:08:05 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-25 09:08:10 am_periodic.py [line:27] INFO 清空公司代码或者简称输入框内容
+2018-05-25 09:08:11 am_periodic.py [line:31] INFO 输入公司代码或者简称：600010
+2018-05-25 09:08:13 am_periodic.py [line:41] INFO 单击查询按钮
+2018-05-25 09:08:18 am_periodic.py [line:47] INFO 点击 实际披露日 链接
+2018-05-25 09:08:23 commonAction.py [line:30] INFO 验证页面元素:定期报告
+2018-05-25 09:08:24 commonAction.py [line:32] INFO 退出浏览器
+2018-05-25 10:44:24 tc_summaries.py [line:22] INFO 场景：公告摘要页面通过全部条件查询公告测试开始。。。
+2018-05-25 10:44:24 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-25 10:44:42 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-25 10:44:43 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/periodic/
+2018-05-25 10:45:11 tc_summaries.py [line:22] INFO 场景：公告摘要页面通过全部条件查询公告测试开始。。。
+2018-05-25 10:45:11 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-25 10:45:16 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-25 10:45:18 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/summaries/
+2018-05-25 10:45:53 commonAction.py [line:22] INFO 当前窗口的标题是:公告摘要 | 上海证券交易所
+2018-05-25 10:45:58 am_summaries.py [line:23] INFO 清空公司代码或者简称输入框内容
+2018-05-25 10:45:59 am_summaries.py [line:27] INFO 输入公司代码或者简称：603989
+2018-05-25 10:46:00 am_summaries.py [line:31] INFO 清空开始日期内容
+2018-05-25 10:46:01 am_summaries.py [line:34] INFO 选择开始日期：2018-05-01
+2018-05-25 10:46:01 am_summaries.py [line:37] INFO 清空结束日期内容
+2018-05-25 10:46:01 am_summaries.py [line:40] INFO 选择结束日期：2018-05-25
+2018-05-25 10:46:02 am_summaries.py [line:44] INFO 单击查询按钮
+2018-05-25 10:46:07 am_summaries.py [line:50] INFO 点击 公告 链接
+2018-05-25 10:46:14 commonAction.py [line:30] INFO 当前窗口的标题是:上海证券交易所
+2018-05-25 10:46:14 commonAction.py [line:31] INFO 验证页面元素:(603989)“艾华集团”2018年第一季度主要财务指标
+2018-05-25 10:50:21 tc_summaries.py [line:22] INFO 场景：公告摘要页面通过全部条件查询公告测试开始。。。
+2018-05-25 10:50:21 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-25 10:50:25 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-25 10:50:26 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/summaries/
+2018-05-25 10:50:32 commonAction.py [line:22] INFO 当前窗口的标题是:公告摘要 | 上海证券交易所
+2018-05-25 10:50:37 am_summaries.py [line:23] INFO 清空公司代码或者简称输入框内容
+2018-05-25 10:50:38 am_summaries.py [line:27] INFO 输入公司代码或者简称：603989
+2018-05-25 10:50:39 am_summaries.py [line:31] INFO 清空开始日期内容
+2018-05-25 10:50:39 am_summaries.py [line:34] INFO 选择开始日期：2018-05-01
+2018-05-25 10:50:40 am_summaries.py [line:37] INFO 清空结束日期内容
+2018-05-25 10:50:40 am_summaries.py [line:40] INFO 选择结束日期：2018-05-25
+2018-05-25 10:50:41 am_summaries.py [line:44] INFO 单击查询按钮
+2018-05-25 10:50:46 am_summaries.py [line:50] INFO 点击 公告 链接
+2018-05-25 10:50:57 commonAction.py [line:30] INFO 当前窗口的标题是:上海证券交易所
+2018-05-25 10:50:57 commonAction.py [line:31] INFO 验证页面元素:(603989)“艾华集团”2018年第一季度主要财务指标
+2018-05-25 10:50:57 commonAction.py [line:33] INFO 退出浏览器
+2018-05-25 15:10:24 tc_general.py [line:20] INFO 场景：通过一般公告全条件查询，进入详情页面 测试开始。。。
+2018-05-25 15:10:24 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-25 15:10:40 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-25 15:10:41 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/announcement/general/
+2018-05-25 15:11:43 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-25 15:11:43 am_general.py [line:23] INFO 清空关键字输入框内容
+2018-05-25 15:11:44 am_general.py [line:27] INFO 输入关键字：富国中证
+2018-05-25 15:11:45 am_general.py [line:31] INFO 选择的值是:1
+2018-05-25 15:17:30 tc_general.py [line:20] INFO 场景：通过一般公告全条件查询，进入详情页面 测试开始。。。
+2018-05-25 15:17:30 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-25 15:17:38 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-25 15:17:39 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/announcement/general/
+2018-05-25 15:17:50 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-25 15:17:50 am_general.py [line:23] INFO 清空关键字输入框内容
+2018-05-25 15:17:51 am_general.py [line:27] INFO 输入关键字：富国中证
+2018-05-25 15:17:52 am_general.py [line:31] INFO 选择的值是:1
+2018-05-25 15:28:01 tc_general.py [line:20] INFO 场景：通过一般公告全条件查询，进入详情页面 测试开始。。。
+2018-05-25 15:28:01 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-25 15:28:12 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-25 15:28:13 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/announcement/general/
+2018-05-25 15:28:33 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-25 15:28:33 am_general.py [line:23] INFO 清空关键字输入框内容
+2018-05-25 15:28:34 am_general.py [line:27] INFO 输入关键字：富国中证
+2018-05-25 15:28:35 am_general.py [line:31] INFO 选择的值是:1
+2018-05-25 15:28:35 am_general.py [line:34] INFO 单击查询按钮
+2018-05-25 15:28:40 am_general.py [line:37] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-25 15:28:40 am_general.py [line:41] INFO 点击 公告 链接
+2018-05-25 15:34:40 tc_general.py [line:20] INFO 场景：通过一般公告全条件查询，进入详情页面 测试开始。。。
+2018-05-25 15:34:40 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-25 15:34:48 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-25 15:34:49 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/announcement/general/
+2018-05-25 15:35:00 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-25 15:35:00 am_general.py [line:23] INFO 清空关键字输入框内容
+2018-05-25 15:35:01 am_general.py [line:27] INFO 输入关键字：富国中证
+2018-05-25 15:35:03 am_general.py [line:31] INFO 选择的值是:1
+2018-05-25 15:35:03 am_general.py [line:34] INFO 单击查询按钮
+2018-05-25 15:35:09 am_general.py [line:39] INFO 当前窗口的标题是:全站检索 | 上海证券交易所
+2018-05-25 15:35:09 am_general.py [line:43] INFO 点击 公告 链接
+2018-05-25 15:58:44 tc_general.py [line:20] INFO 场景：通过一般公告全条件查询，进入详情页面 测试开始。。。
+2018-05-25 15:58:44 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-25 15:58:51 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-25 15:58:52 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/announcement/general/
+2018-05-25 16:01:57 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-25 16:01:57 am_general.py [line:23] INFO 清空关键字输入框内容
+2018-05-25 16:01:58 am_general.py [line:27] INFO 输入关键字：富国中证
+2018-05-25 16:01:59 am_general.py [line:31] INFO 选择的值是:1
+2018-05-25 16:01:59 am_general.py [line:34] INFO 单击查询按钮
+2018-05-25 16:02:05 am_general.py [line:39] INFO 当前窗口的标题是:全站检索 | 上海证券交易所
+2018-05-25 16:02:05 am_general.py [line:43] INFO 点击 公告 链接
+2018-05-25 16:04:32 tc_general.py [line:20] INFO 场景：通过一般公告全条件查询，进入详情页面 测试开始。。。
+2018-05-25 16:04:32 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-25 16:04:38 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-25 16:04:39 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/announcement/general/
+2018-05-25 16:06:16 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-25 16:06:16 am_general.py [line:23] INFO 清空关键字输入框内容
+2018-05-25 16:06:17 am_general.py [line:27] INFO 输入关键字：富国中证
+2018-05-25 16:06:18 am_general.py [line:31] INFO 选择的值是:1
+2018-05-25 16:06:18 am_general.py [line:34] INFO 单击查询按钮
+2018-05-25 16:06:24 am_general.py [line:39] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-25 16:06:24 am_general.py [line:43] INFO 点击 公告 链接
+2018-05-25 16:39:45 tc_general.py [line:20] INFO 场景：通过一般公告全条件查询，进入详情页面 测试开始。。。
+2018-05-25 16:39:45 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-05-25 16:39:50 commonAction.py [line:17] INFO 浏览器最大化
+2018-05-25 16:39:51 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/announcement/general/
+2018-05-25 16:40:05 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-05-25 16:40:05 am_general.py [line:23] INFO 清空关键字输入框内容
+2018-05-25 16:40:06 am_general.py [line:27] INFO 输入关键字：富国中证
+2018-05-25 16:40:08 am_general.py [line:31] INFO 选择的值是:1
+2018-05-25 16:40:08 am_general.py [line:34] INFO 单击查询按钮
+2018-05-25 16:40:14 am_general.py [line:39] INFO 当前窗口的标题是:全站检索 | 上海证券交易所
+2018-05-25 16:40:14 am_general.py [line:43] INFO 点击 公告 链接
+2018-05-25 16:40:20 commonAction.py [line:30] INFO 当前窗口的标题是:关于富国中证10年期国债交易型开放式指数证券投资基金流动性服务商的公告 | 上海证券交易所
+2018-05-25 16:40:20 commonAction.py [line:31] INFO 验证页面元素:富国中证10年期国债交易型开放式
+2018-05-25 16:40:20 commonAction.py [line:33] INFO 退出浏览器
+2018-06-28 11:13:43 tc_general.py [line:20] INFO 场景：通过一般公告全条件查询，进入详情页面 测试开始。。。
+2018-06-28 11:13:43 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-06-28 11:13:52 commonAction.py [line:17] INFO 浏览器最大化
+2018-06-28 11:13:53 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/announcement/general/
+2018-06-28 11:13:59 commonAction.py [line:22] INFO 当前窗口的标题是:www.sse.com.cn
+2018-06-28 11:13:59 am_general.py [line:23] INFO 清空关键字输入框内容
+2018-06-28 11:14:23 am_general.py [line:27] INFO 输入关键字：富国中证
+2018-06-28 11:14:24 am_general.py [line:31] INFO 选择的值是:1
+2018-06-28 11:14:24 am_general.py [line:34] INFO 单击查询按钮
+2018-06-28 11:14:29 am_general.py [line:39] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-06-28 11:14:29 am_general.py [line:43] INFO 点击 公告 链接
+2018-06-28 11:15:00 tc_general.py [line:20] INFO 场景：通过一般公告全条件查询，进入详情页面 测试开始。。。
+2018-06-28 11:15:00 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-06-28 11:15:05 commonAction.py [line:17] INFO 浏览器最大化
+2018-06-28 11:15:06 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/announcement/general/
+2018-06-28 11:15:54 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-06-28 11:15:54 am_general.py [line:23] INFO 清空关键字输入框内容
+2018-06-28 11:15:55 am_general.py [line:27] INFO 输入关键字：富国中证
+2018-06-28 11:15:56 am_general.py [line:31] INFO 选择的值是:1
+2018-06-28 11:15:56 am_general.py [line:34] INFO 单击查询按钮
+2018-06-28 11:16:02 am_general.py [line:39] INFO 当前窗口的标题是:全站检索 | 上海证券交易所
+2018-06-28 11:16:02 am_general.py [line:43] INFO 点击 公告 链接
+2018-06-28 11:16:12 commonAction.py [line:30] INFO 当前窗口的标题是:关于富国中证10年期国债交易型开放式指数证券投资基金流动性服务商的公告 | 上海证券交易所
+2018-06-28 11:16:12 commonAction.py [line:31] INFO 验证页面元素:富国中证10年期国债交易型开放式
+2018-06-28 11:16:12 commonAction.py [line:33] INFO 退出浏览器
+2018-09-18 16:55:22 ts_inquiries.py [line:15] INFO 场景：通过监管公司全条件查询，进入pdf页面 测试开始。。。
+2018-09-18 16:55:22 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-18 16:55:32 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-18 16:55:33 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/credibility/supervision/inquiries/
+2018-09-18 16:55:47 commonAction.py [line:22] INFO 当前窗口的标题是:监管问询 | 上海证券交易所
+2018-09-18 16:55:47 am_inquiries.py [line:33] INFO 清除公司代码或简称输入框的内容
+2018-09-18 16:55:47 am_inquiries.py [line:35] INFO 输入公司代码：600086
+2018-09-18 16:55:50 am_inquiries.py [line:39] INFO 选择监管类型是：定期报告事后审核意见函
+2018-09-18 16:55:51 am_inquiries.py [line:43] INFO 选择开始时间：2018-05-01
+2018-09-18 16:55:52 am_inquiries.py [line:46] INFO 选择结束时间：2018-05-17
+2018-09-18 16:55:52 am_inquiries.py [line:49] INFO 点击查询按钮
+2018-09-18 16:55:57 am_inquiries.py [line:53] INFO 点击公告链接
+2018-09-18 16:55:57 am_inquiries.py [line:56] INFO 切换窗口
+2018-09-18 16:56:06 am_inquiries.py [line:59] INFO 获取当前窗口的标题:
+2018-09-18 16:56:06 am_inquiries.py [line:61] INFO 退出浏览器
+2018-09-18 16:56:09 ts_measures.py [line:15] INFO 场景：通过监管公司全条件查询，进入pdf页面 测试开始。。。
+2018-09-18 16:56:09 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-18 16:56:14 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-18 16:56:15 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/credibility/supervision/measures/
+2018-09-18 16:56:48 commonAction.py [line:22] INFO 当前窗口的标题是:监管措施 | 上海证券交易所
+2018-09-18 16:56:48 am_measures.py [line:33] INFO 清除公司代码或简称输入框的内容
+2018-09-18 16:56:48 am_measures.py [line:35] INFO 输入公司代码：600086
+2018-09-18 16:56:50 am_measures.py [line:39] INFO 清除涉及对象输入框的内容
+2018-09-18 16:56:51 am_measures.py [line:41] INFO 输入关键字：董秘
+2018-09-18 16:56:51 am_measures.py [line:44] INFO 选择监管类型是：监管关注
+2018-09-18 16:56:52 am_measures.py [line:48] INFO 选择开始时间：2018-05-01
+2018-09-18 16:56:52 am_measures.py [line:51] INFO 选择结束时间：2018-05-17
+2018-09-18 16:56:53 am_measures.py [line:54] INFO 点击查询按钮
+2018-09-18 16:56:58 am_measures.py [line:58] INFO 点击公告链接
+2018-09-18 16:56:58 am_measures.py [line:61] INFO 切换窗口
+2018-09-18 16:57:07 am_measures.py [line:64] INFO 获取当前窗口的标题:
+2018-09-18 16:57:07 am_measures.py [line:66] INFO 退出浏览器
+2018-09-18 16:57:10 ts_promisho.py [line:14] INFO 场景：通过承诺履行全条件查询，进入详情页面 测试开始。。。
+2018-09-18 16:57:10 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-18 16:57:14 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-18 16:57:15 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/credibility/supervision/promisho/
+2018-09-18 16:57:41 commonAction.py [line:22] INFO 当前窗口的标题是:承诺履行情况 | 上海证券交易所
+2018-09-18 16:57:41 am_promisho.py [line:33] INFO 清除公司代码或简称输入框的内容
+2018-09-18 16:57:41 am_promisho.py [line:35] INFO 输入公司代码：603013
+2018-09-18 16:57:43 am_promisho.py [line:39] INFO 清除涉及对象输入框的内容
+2018-09-18 16:57:43 am_promisho.py [line:41] INFO 输入关键字：国家
+2018-09-18 16:57:43 am_promisho.py [line:44] INFO 选择承诺类型是：1
+2018-09-18 16:57:46 am_promisho.py [line:48] INFO 选择承诺事项类别是：1
+2018-09-18 16:57:48 am_promisho.py [line:52] INFO 选择履行状态是：2
+2018-09-18 16:57:50 am_promisho.py [line:56] INFO 点击查询按钮
+2018-09-18 16:57:55 am_promisho.py [line:60] INFO 点击公告链接
+2018-09-18 16:58:03 am_promisho.py [line:63] INFO 切换窗口
+2018-09-18 16:58:12 am_promisho.py [line:66] INFO 获取当前窗口的标题:承诺履行情况 | 上海证券交易所
+2018-09-18 16:58:12 am_promisho.py [line:73] INFO 验证跳转页面元素:亚普股份
+2018-09-18 16:58:12 am_promisho.py [line:75] INFO 退出浏览器
+2018-09-18 17:26:50 ts_fundAnnouncement.py [line:14] INFO 场景：通过最新基金公告全条件查询，进入pdf页面 测试开始。。。
+2018-09-18 17:26:50 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-18 17:26:54 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-18 17:26:56 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-18 17:27:17 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-18 17:27:17 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-18 17:27:17 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501303
+2018-09-18 17:27:19 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-18 17:35:43 ts_fundAnnouncement.py [line:14] INFO 场景：通过最新基金公告全条件查询，进入pdf页面 测试开始。。。
+2018-09-18 17:35:44 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-18 17:35:53 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-18 17:35:55 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-18 17:35:59 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-18 17:35:59 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-18 17:35:59 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501303
+2018-09-18 17:36:01 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-18 17:37:45 ts_fundAnnouncement.py [line:14] INFO 场景：通过最新基金公告全条件查询，进入pdf页面 测试开始。。。
+2018-09-18 17:37:45 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-18 17:37:50 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-18 17:37:51 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-18 17:37:56 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-18 17:37:56 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-18 17:37:56 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501303
+2018-09-18 17:37:59 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-18 17:38:01 am_fundAnnouncement.py [line:35] INFO 输入开始时间：2018-09-15
+2018-09-18 17:38:03 am_fundAnnouncement.py [line:39] INFO 输入结束时间：2018-09-18
+2018-09-18 17:38:05 am_fundAnnouncement.py [line:43] INFO 单击查询按钮
+2018-09-18 17:38:06 am_fundAnnouncement.py [line:46] INFO 点击基金信息公告链接
+2018-09-18 17:38:06 am_fundAnnouncement.py [line:49] INFO 切换窗口
+2018-09-18 17:38:15 am_fundAnnouncement.py [line:52] INFO 获取当前窗口的标题:
+2018-09-18 17:38:15 am_fundAnnouncement.py [line:54] INFO 退出浏览器
+2018-09-18 17:57:26 ts_fundAnnouncement.py [line:14] INFO 场景：通过最新基金公告全条件查询，进入pdf页面 测试开始。。。
+2018-09-18 17:57:26 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-18 17:57:32 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-18 17:57:33 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-18 17:57:38 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-18 17:57:38 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-18 17:57:38 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501303
+2018-09-18 17:57:40 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-18 17:57:42 am_fundAnnouncement.py [line:35] INFO 输入开始时间：2018-09-15
+2018-09-18 17:57:45 am_fundAnnouncement.py [line:39] INFO 输入结束时间：2018-09-18
+2018-09-18 17:57:47 am_fundAnnouncement.py [line:43] INFO 单击查询按钮
+2018-09-18 17:57:47 am_fundAnnouncement.py [line:46] INFO 点击基金信息公告链接
+2018-09-18 17:57:48 am_fundAnnouncement.py [line:49] INFO 切换窗口
+2018-09-18 17:57:57 am_fundAnnouncement.py [line:52] INFO 获取当前窗口的标题:
+2018-09-18 17:57:57 am_fundAnnouncement.py [line:54] INFO 退出浏览器
+2018-09-18 18:01:35 ts_fundAnnouncement.py [line:14] INFO 场景：通过最新基金公告全条件查询，进入pdf页面 测试开始。。。
+2018-09-18 18:01:35 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-18 18:01:42 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-18 18:01:43 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-18 18:01:47 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-18 18:01:47 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-18 18:01:48 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501303
+2018-09-18 18:01:50 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-18 18:01:52 am_fundAnnouncement.py [line:35] INFO 输入开始时间：2018-09-15
+2018-09-18 18:01:54 am_fundAnnouncement.py [line:39] INFO 输入结束时间：2018-09-18
+2018-09-18 18:01:57 am_fundAnnouncement.py [line:43] INFO 单击查询按钮
+2018-09-18 18:01:57 am_fundAnnouncement.py [line:46] INFO 点击基金信息公告链接
+2018-09-18 18:01:58 am_fundAnnouncement.py [line:49] INFO 切换窗口
+2018-09-18 18:02:07 am_fundAnnouncement.py [line:52] INFO 获取当前窗口的标题:
+2018-09-18 18:02:07 am_fundAnnouncement.py [line:54] INFO 退出浏览器
+2018-09-18 18:05:38 ts_fundAnnouncement.py [line:14] INFO 场景：通过最新基金公告全条件查询，进入pdf页面 测试开始。。。
+2018-09-18 18:05:38 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-18 18:05:43 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-18 18:05:44 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-18 18:05:47 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-18 18:05:47 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-18 18:05:47 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501303
+2018-09-18 18:05:50 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-18 18:05:52 am_fundAnnouncement.py [line:35] INFO 输入开始时间：2018-09-15
+2018-09-18 18:05:54 am_fundAnnouncement.py [line:39] INFO 输入结束时间：2018-09-18
+2018-09-18 18:05:56 am_fundAnnouncement.py [line:43] INFO 单击查询按钮
+2018-09-18 18:05:57 am_fundAnnouncement.py [line:46] INFO 点击基金信息公告链接
+2018-09-18 18:05:59 am_fundAnnouncement.py [line:49] INFO 切换窗口
+2018-09-18 18:06:09 am_fundAnnouncement.py [line:52] INFO 获取当前窗口的标题:
+2018-09-18 18:06:09 am_fundAnnouncement.py [line:54] INFO 退出浏览器
+2018-09-18 18:09:19 ts_fundAnnouncement.py [line:14] INFO 场景：通过最新基金公告全条件查询，进入pdf页面 测试开始。。。
+2018-09-18 18:09:19 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-18 18:09:23 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-18 18:09:24 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-18 18:09:28 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-18 18:09:28 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-18 18:09:28 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501303
+2018-09-18 18:09:30 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-18 18:09:32 am_fundAnnouncement.py [line:35] INFO 输入开始时间：2018-09-15
+2018-09-18 18:09:34 am_fundAnnouncement.py [line:39] INFO 输入结束时间：2018-09-18
+2018-09-18 18:09:37 am_fundAnnouncement.py [line:43] INFO 单击查询按钮
+2018-09-18 18:09:37 am_fundAnnouncement.py [line:46] INFO 点击基金信息公告链接
+2018-09-18 18:09:38 am_fundAnnouncement.py [line:49] INFO 切换窗口
+2018-09-18 18:09:47 am_fundAnnouncement.py [line:52] INFO 获取当前窗口的标题:
+2018-09-18 18:09:47 am_fundAnnouncement.py [line:54] INFO 退出浏览器
+2018-09-18 18:18:28 ts_fundAnnouncement.py [line:14] INFO 场景：通过最新基金公告全条件查询，进入pdf页面 测试开始。。。
+2018-09-18 18:18:28 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-18 18:18:32 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-18 18:18:34 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-18 18:18:38 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-18 18:18:38 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-18 18:18:38 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501303
+2018-09-18 18:18:40 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-18 18:18:43 am_fundAnnouncement.py [line:35] INFO 输入开始时间：2018-09-15
+2018-09-18 18:18:45 am_fundAnnouncement.py [line:39] INFO 输入结束时间：2018-09-18
+2018-09-18 18:18:47 am_fundAnnouncement.py [line:43] INFO 单击查询按钮
+2018-09-18 18:18:47 am_fundAnnouncement.py [line:46] INFO 点击基金信息公告链接
+2018-09-18 18:18:48 am_fundAnnouncement.py [line:49] INFO 切换窗口
+2018-09-18 18:18:57 am_fundAnnouncement.py [line:52] INFO 获取当前窗口的标题:
+2018-09-18 18:18:57 am_fundAnnouncement.py [line:54] INFO 退出浏览器
+2018-09-18 18:25:13 ts_fundAnnouncement.py [line:14] INFO 场景：通过最新基金公告全条件查询，进入pdf页面 测试开始。。。
+2018-09-18 18:25:13 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-18 18:25:18 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-18 18:25:19 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-18 18:25:24 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-18 18:25:24 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-18 18:25:24 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501303
+2018-09-18 18:25:26 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-18 18:26:45 ts_fundAnnouncement.py [line:14] INFO 场景：通过最新基金公告全条件查询，进入pdf页面 测试开始。。。
+2018-09-18 18:26:45 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-18 18:26:49 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-18 18:26:50 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-18 18:26:55 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-18 18:26:55 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-18 18:26:55 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501303
+2018-09-18 18:26:57 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-18 18:26:59 am_fundAnnouncement.py [line:35] INFO 输入开始时间：2018-09-15
+2018-09-18 18:27:02 am_fundAnnouncement.py [line:39] INFO 输入结束时间：2018-09-18
+2018-09-18 18:27:04 am_fundAnnouncement.py [line:43] INFO 单击查询按钮
+2018-09-18 18:27:04 am_fundAnnouncement.py [line:46] INFO 点击基金信息公告链接
+2018-09-18 18:27:05 am_fundAnnouncement.py [line:49] INFO 切换窗口
+2018-09-18 18:27:14 am_fundAnnouncement.py [line:52] INFO 获取当前窗口的标题:
+2018-09-18 18:27:14 am_fundAnnouncement.py [line:54] INFO 退出浏览器
+2018-09-18 18:29:29 ts_fundAnnouncement.py [line:14] INFO 场景：通过最新基金公告全条件查询，进入pdf页面 测试开始。。。
+2018-09-18 18:29:29 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-18 18:29:34 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-18 18:29:35 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-18 18:29:38 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-18 18:29:38 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-18 18:29:38 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501303
+2018-09-18 18:29:40 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-18 18:29:43 am_fundAnnouncement.py [line:35] INFO 输入开始时间：2018-09-15
+2018-09-18 18:29:45 am_fundAnnouncement.py [line:39] INFO 输入结束时间：2018-09-18
+2018-09-18 18:29:47 am_fundAnnouncement.py [line:43] INFO 单击查询按钮
+2018-09-18 18:29:47 am_fundAnnouncement.py [line:46] INFO 点击基金信息公告链接
+2018-09-18 18:29:48 am_fundAnnouncement.py [line:49] INFO 切换窗口
+2018-09-18 18:29:57 am_fundAnnouncement.py [line:52] INFO 获取当前窗口的标题:
+2018-09-18 18:29:57 am_fundAnnouncement.py [line:54] INFO 退出浏览器
+2018-09-18 18:31:19 tc_general.py [line:20] INFO 场景：通过一般公告全条件查询，进入详情页面 测试开始。。。
+2018-09-18 18:31:19 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-18 18:31:24 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-18 18:31:25 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/announcement/general/
+2018-09-18 18:31:30 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-09-18 18:31:30 am_general.py [line:23] INFO 清空关键字输入框内容
+2018-09-18 18:31:31 am_general.py [line:27] INFO 输入关键字：富国中证
+2018-09-18 18:31:32 am_general.py [line:31] INFO 选择的值是:1
+2018-09-18 18:31:32 am_general.py [line:34] INFO 单击查询按钮
+2018-09-18 18:31:39 am_general.py [line:39] INFO 当前窗口的标题是:全站检索 | 上海证券交易所
+2018-09-18 18:31:39 am_general.py [line:43] INFO 点击 公告 链接
+2018-09-18 18:31:45 commonAction.py [line:30] INFO 当前窗口的标题是:关于富国中证10年期国债交易型开放式指数证券投资基金流动性服务商的公告 | 上海证券交易所
+2018-09-18 18:31:45 commonAction.py [line:31] INFO 验证页面元素:富国中证10年期国债交易型开放式
+2018-09-18 18:31:45 commonAction.py [line:33] INFO 退出浏览器
+2018-09-18 18:35:09 tc_general.py [line:20] INFO 场景：通过一般公告全条件查询，进入详情页面 测试开始。。。
+2018-09-18 18:35:09 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-18 18:35:14 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-18 18:35:15 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/announcement/general/
+2018-09-18 18:35:18 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-09-18 18:35:18 am_general.py [line:23] INFO 清空关键字输入框内容
+2018-09-18 18:35:19 am_general.py [line:27] INFO 输入关键字：富国中证
+2018-09-18 18:35:20 am_general.py [line:31] INFO 选择的值是:1
+2018-09-18 18:35:20 am_general.py [line:34] INFO 单击查询按钮
+2018-09-18 18:35:27 am_general.py [line:39] INFO 当前窗口的标题是:全站检索 | 上海证券交易所
+2018-09-18 18:35:27 am_general.py [line:43] INFO 点击 公告 链接
+2018-09-18 18:35:33 commonAction.py [line:30] INFO 当前窗口的标题是:关于富国中证10年期国债交易型开放式指数证券投资基金流动性服务商的公告 | 上海证券交易所
+2018-09-18 18:35:33 commonAction.py [line:31] INFO 验证页面元素:富国中证10年期国债交易型开放式
+2018-09-18 18:35:33 commonAction.py [line:33] INFO 退出浏览器
+2018-09-18 18:39:55 ts_announcement.py [line:13] INFO 场景：最新公告页面通过全部条件查询公告测试开始。。。
+2018-09-18 18:39:55 am_announcement.py [line:19] INFO 打开浏览器：chrome
+2018-09-18 18:39:59 am_announcement.py [line:21] INFO 浏览器最大化
+2018-09-18 18:40:01 am_announcement.py [line:23] INFO 访问被测地址：http://www.sse.com.cn/disclosure/listedinfo/announcement/
+2018-09-18 18:40:04 am_announcement.py [line:26] INFO 当前窗口的标题是:最新公告 | 上海证券交易所
+2018-09-18 18:40:04 am_announcement.py [line:33] INFO 输入公司代码或者简称：600000
+2018-09-18 18:40:05 am_announcement.py [line:37] INFO 输入关键字：浦发银行
+2018-09-18 18:40:06 am_announcement.py [line:41] INFO 选择的公告类型是：DQGG
+2018-09-18 18:40:08 am_announcement.py [line:45] INFO 选择开始日期：2018-04-01
+2018-09-18 18:40:08 am_announcement.py [line:48] INFO 选择结束日期：2018-05-07
+2018-09-18 18:40:09 am_announcement.py [line:52] INFO 单击查询按钮
+2018-09-18 18:40:15 am_announcement.py [line:56] INFO 单击第一条公告链接
+2018-09-18 18:40:23 am_announcement.py [line:60] INFO 验证跳转页面元素:浦发银行2018年第一季度报告
+2018-09-18 18:40:23 am_announcement.py [line:63] INFO 关闭第一条公告
+2018-09-18 18:40:24 am_announcement.py [line:67] INFO 退出浏览器
+2018-09-19 13:44:22 tc_bca_general.py [line:22] INFO 场景：通过一般公告全条件查询，进入详情页面 测试开始。。。
+2018-09-19 13:44:22 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-19 13:44:41 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-19 13:44:42 commonAction.py [line:19] INFO 访问被测地址：http://www108.sse.com.cn/
+2018-09-19 14:14:31 tc_bca_general.py [line:22] INFO 场景：通过一般公告全条件查询，进入详情页面 测试开始。。。
+2018-09-19 14:14:31 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-19 14:14:36 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-19 14:14:37 commonAction.py [line:19] INFO 访问被测地址：http://www108.sse.com.cn/disclosure/announcement/general/
+2018-09-19 14:15:00 commonAction.py [line:22] INFO 当前窗口的标题是:www108.sse.com.cn
+2018-09-19 14:15:00 am_general.py [line:23] INFO 清空关键字输入框内容
+2018-09-19 15:40:06 tc_bca_general.py [line:27] INFO 场景：通过一般公告全条件查询，进入详情页面 测试开始。。。
+2018-09-19 15:40:06 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-19 15:40:12 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-19 15:40:13 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/announcement/general/

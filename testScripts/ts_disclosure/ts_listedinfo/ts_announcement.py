@@ -2,7 +2,7 @@
 # @Time    : 2018/5/6 14:10
 # @Author  : Robin Li
 # @Email   : liqinjia372135@163.com
-# @File    : tc_announcement.py
+# @File    : tc_bea_announcement.py
 # @Software: PyCharm
 
 from selenium import webdriver

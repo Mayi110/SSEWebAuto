@@ -5,24 +5,22 @@
 # @File    : po_general.py
 # @Software: PyCharm
 
-from selenium import webdriver
-import unittest
-import time
-from selenium.common.exceptions import WebDriverException
-import traceback
+from util.ObjectMap import *
+from util.ParseConfigurationFile import ParseConfigFile
 
 
-class TestDemo(unittest.TestCase):
-    def setUp(self):
-        self.driver = webdriver.Chrome()
+class generalPage(object):
+    '''一般公告页面'''
 
-    def test_visitSogou(self):
-        url = 'http://www.sogou.com'
-        self.driver.get(url)
+    def __init__(self,driver):
+        self.driver = driver
+        self.parseCF = ParseConfigFile()
+        self.regularOptions = self.parseCF.getItemsSection('generalPage')
 
-    def tearDown(self):
-        self.driver.quit()
-
-
-if __name__ == '__main__':
-    unittest.main()
+    def announcementLinkObj(self):
+        try:
+            locateType,locatorExpression = self.regularOptions['generalPage.announcementLink'.lower()].split('>')
+            elementObj = getElement(locateType,locatorExpression)
+            return elementObj
+        except Exception as e:
+            raise e

@@ -2,7 +2,7 @@
 # @Time    : 2018/5/18 9:25
 # @Author  : 'Robin Li
 # @Email   : liqinjia372135@163.com
-# @File    : tc_sum.py
+# @File    : tc_cjaa_sum.py
 # @Software: PyCharm
 
 from appModules.am_market.am_othersdata.am_margin.am_sum import sumAction

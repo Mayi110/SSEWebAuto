@@ -5,24 +5,30 @@
 # @File    : po_periodic.py
 # @Software: PyCharm
 
-from selenium import webdriver
-import unittest
-import time
-from selenium.common.exceptions import WebDriverException
-import traceback
+from util.ObjectMap import *
+from util.ParseConfigurationFile import ParseConfigFile
 
 
-class TestDemo(unittest.TestCase):
-    def setUp(self):
-        self.driver = webdriver.Chrome()
+class periodicPage(object):
+    '''定期报告预约情况页面'''
 
-    def test_visitSogou(self):
-        url = 'http://www.sogou.com'
-        self.driver.get(url)
+    def __init__(self,driver):
+        self.driver = driver
+        self.parseCF = ParseConfigFile()
+        self.regularOptions = self.parseCF.getItemsSection('periodicPage')
 
-    def tearDown(self):
-        self.driver.quit()
+    def companyCodeLinkObj(self):
+        try:
+            locateType,locatorExpression = self.regularOptions['periodicPage.companyCodeLink'.lower()].split('>')
+            elementObj = getElement(locateType,locatorExpression)
+            return elementObj
+        except Exception as e:
+            raise e
 
-
-if __name__ == '__main__':
-    unittest.main()
+    def actualDateLinkObj(self):
+        try:
+            locateType,locatorExpression = self.regularOptions['periodicPage.actualDateLink'.lower()].split('>')
+            elementObj = getElement(locateType,locatorExpression)
+            return elementObj
+        except Exception as e:
+            raise e

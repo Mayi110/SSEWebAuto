@@ -27,6 +27,7 @@ def assertPageElement(assertString):
     '''
     try:
         operate_window_handle()
+        logging.info('当前窗口的标题是:%s'%get_title())
         logging.info('验证页面元素:%s'%assertString)
         assert_string_in_pageSource(assertString)
         logging.info('退出浏览器')

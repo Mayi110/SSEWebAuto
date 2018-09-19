@@ -2,7 +2,7 @@
 # @Time    : 2018/5/11 9:48
 # @Author  : 'Robin Li
 # @Email   : liqinjia372135@163.com
-# @File    : tc_search.py
+# @File    : tc_h_search.py
 # @Software: PyCharm
 
 from appModules.am_search.am_search import sseSearchAction

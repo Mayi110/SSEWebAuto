@@ -5,24 +5,43 @@
 # @File    : am_general.py
 # @Software: PyCharm
 
-from selenium import webdriver
-import unittest
-import time
-from selenium.common.exceptions import WebDriverException
-import traceback
+from pageObjects.po_disclosure.po_announcement.po_general import generalPage
+from pageObjects.po_common.po_commonPage import commonPage
+from util.Log import *
+from util.ObjectMap import *
 
 
-class TestDemo(unittest.TestCase):
-    def setUp(self):
-        self.driver = webdriver.Chrome()
+class generalAction(object):
+    def __init__(self):
+        print('search...')
 
-    def test_visitSogou(self):
-        url = 'http://www.sogou.com'
-        self.driver.get(url)
+    @staticmethod
+    def searchGeneralByAllCondition(driver,keyWord,value):
+        try:
+            CP = commonPage(driver)
 
-    def tearDown(self):
-        self.driver.quit()
+            logging.info('清空关键字输入框内容')
+            CP.keyWordObj().clear()
+            sleep(1)
 
+            logging.info('输入关键字：%s'%keyWord)
+            CP.keyWordObj().send_keys(keyWord)
+            sleep(1)
 
-if __name__ == '__main__':
-    unittest.main()
+            logging.info('选择的值是:%s'%value)
+            CP.singleSelectObj(value)
+
+            logging.info('单击查询按钮')
+            CP.searchButtonObj().click()
+            sleep(5)
+
+            operate_window_handle()
+            logging.info('当前窗口的标题是:%s'%get_title())
+
+            GP = generalPage(driver)
+
+            logging.info('点击 公告 链接')
+            GP.announcementLinkObj().click()
+            sleep(5)
+        except Exception as e:
+            raise e
