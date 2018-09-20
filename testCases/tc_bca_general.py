@@ -21,16 +21,17 @@ class generalCase(unittest.TestCase):
 
     @ddt.data(['chrome','富国中证','1','富国中证10年期国债交易型开放式'])
     @ddt.unpack
-    def test_searchGeneralByAllCondition(self,browserName,testdata01,testdata02,expectdata):
+    def test_searchGeneralByAllCondition(self,browserName,testData01,testData02,expectData):
         '''通过全条件查询一般公告信息'''
         try:
             logging.info('场景：通过一般公告全条件查询，进入详情页面 测试开始。。。')
-            # launchBrowser('chrome','http://www.sse.com.cn/disclosure/announcement/general/')
             launchBrowser(browserName,url)
-            generalAction.searchGeneralByAllCondition(webdriver,testdata01,testdata02)
-            assertPageElement(expectdata)
+            generalAction.searchGeneralByAllCondition(webdriver,testData01,testData02)
+            assertPageElement(expectData)
         except Exception as e:
             raise e
+
+
 
 if __name__ == '__main__':
     unittest.main()

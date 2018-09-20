@@ -6,7 +6,6 @@
 # @Software: PyCharm
 
 import HTMLTestReportCN
-import HTMLTestRunner
 import unittest
 import time,os
 
@@ -14,7 +13,7 @@ report_path = os.path.join(os.getcwd(),'testReport')
 case_path = os.path.join(os.getcwd(),'testCases')
 
 def all_case():
-    discover = unittest.defaultTestLoader.discover(case_path,pattern='tc_bca_general.py')
+    discover = unittest.defaultTestLoader.discover(case_path,pattern='tc_bdad_secretaries.py')
     return discover
 
 

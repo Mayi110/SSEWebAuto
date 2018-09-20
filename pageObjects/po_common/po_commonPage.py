@@ -94,6 +94,7 @@ class commonPage(object):
             raise e
 
     def singleDate(self):
+        '''单独选择日期'''
         try:
             javascript = 'document.getElementById("start_date2").removeAttribute("readonly");'
             js(javascript)

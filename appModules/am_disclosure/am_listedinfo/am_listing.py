@@ -16,7 +16,7 @@ class listingAction(object):
         print('search...')
 
     @staticmethod
-    def searchRegularByAllCondition(driver,companyCode,startDate,endDate):
+    def searchListingByAllCondition(driver,companyCode,startDate,endDate):
         try:
             LP = listingPage(driver)
             CP = commonPage(driver)

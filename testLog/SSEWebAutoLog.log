@@ -2218,3 +2218,85 @@
 2018-09-19 15:40:06 commonAction.py [line:15] INFO 打开浏览器：chrome
 2018-09-19 15:40:12 commonAction.py [line:17] INFO 浏览器最大化
 2018-09-19 15:40:13 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/announcement/general/
+2018-09-20 13:22:54 tc_bca_general.py [line:27] INFO 场景：通过一般公告全条件查询，进入详情页面 测试开始。。。
+2018-09-20 13:22:54 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-20 13:23:19 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-20 13:23:21 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/announcement/general/
+2018-09-20 13:26:04 commonAction.py [line:22] INFO 当前窗口的标题是:上交所公告 | 上海证券交易所
+2018-09-20 13:26:04 am_general.py [line:23] INFO 清空关键字输入框内容
+2018-09-20 13:26:05 am_general.py [line:27] INFO 输入关键字：富国中证
+2018-09-20 13:26:07 am_general.py [line:31] INFO 选择的值是:1
+2018-09-20 13:26:07 am_general.py [line:34] INFO 单击查询按钮
+2018-09-20 13:26:44 am_general.py [line:39] INFO 当前窗口的标题是:全站检索 | 上海证券交易所
+2018-09-20 13:26:44 am_general.py [line:43] INFO 点击 公告 链接
+2018-09-20 13:27:19 commonAction.py [line:30] INFO 当前窗口的标题是:关于富国中证10年期国债交易型开放式指数证券投资基金流动性服务商的公告 | 上海证券交易所
+2018-09-20 13:27:19 commonAction.py [line:31] INFO 验证页面元素:富国中证10年期国债交易型开放式
+2018-09-20 13:27:20 commonAction.py [line:33] INFO 退出浏览器
+2018-09-20 14:57:56 tc_bba_suspension.py [line:27] INFO 场景：停复牌信息测试场景 测试开始。。。
+2018-09-20 14:57:56 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-20 14:58:00 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-20 14:58:01 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/dealinstruc/suspension/
+2018-09-20 15:02:28 commonAction.py [line:22] INFO 当前窗口的标题是:停复牌信息 | 上海证券交易所
+2018-09-20 15:02:28 am_suspension.py [line:24] INFO 选择查询日期
+2018-09-20 15:02:29 am_suspension.py [line:28] INFO 单击查询按钮
+2018-09-20 15:02:34 commonAction.py [line:30] INFO 当前窗口的标题是:停复牌信息 | 上海证券交易所
+2018-09-20 15:02:34 commonAction.py [line:31] INFO 验证页面元素:18国债15
+2018-09-20 15:04:36 tc_bba_suspension.py [line:27] INFO 场景：停复牌信息测试场景 测试开始。。。
+2018-09-20 15:04:36 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-20 15:04:40 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-20 15:04:41 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/dealinstruc/suspension/
+2018-09-20 15:05:16 commonAction.py [line:22] INFO 当前窗口的标题是:停复牌信息 | 上海证券交易所
+2018-09-20 15:05:16 am_suspension.py [line:24] INFO 清除日期
+2018-09-20 15:05:17 am_suspension.py [line:28] INFO 选择查询日期
+2018-09-20 15:05:19 am_suspension.py [line:32] INFO 单击查询按钮
+2018-09-20 15:05:24 commonAction.py [line:30] INFO 当前窗口的标题是:停复牌信息 | 上海证券交易所
+2018-09-20 15:05:24 commonAction.py [line:31] INFO 验证页面元素:18国债15
+2018-09-20 15:08:17 tc_bba_suspension.py [line:27] INFO 场景：停复牌信息测试场景 测试开始。。。
+2018-09-20 15:08:17 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-20 15:08:21 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-20 15:08:22 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/dealinstruc/suspension/
+2018-09-20 15:12:27 commonAction.py [line:22] INFO 当前窗口的标题是:停复牌信息 | 上海证券交易所
+2018-09-20 15:12:27 am_suspension.py [line:24] INFO 清除日期
+2018-09-20 15:12:28 am_suspension.py [line:28] INFO 选择查询日期
+2018-09-20 15:12:29 am_suspension.py [line:32] INFO 单击查询按钮
+2018-09-20 15:12:39 commonAction.py [line:30] INFO 当前窗口的标题是:停复牌信息 | 上海证券交易所
+2018-09-20 15:12:39 commonAction.py [line:31] INFO 验证页面元素:18国债15
+2018-09-20 15:12:39 commonAction.py [line:33] INFO 退出浏览器
+2018-09-20 16:12:59 tc_bcb_listing.py [line:25] INFO 场景：上市/退市公告业务 测试开始。。。
+2018-09-20 16:12:59 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-20 16:13:03 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-20 16:13:05 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/announcement/listing/
+2018-09-20 16:14:28 commonAction.py [line:22] INFO 当前窗口的标题是:上市/退市公告 | 上海证券交易所
+2018-09-20 16:14:28 am_listing.py [line:23] INFO 清空关键字输入框内容
+2018-09-20 16:14:29 am_listing.py [line:27] INFO 输入关键字：兵器工业
+2018-09-20 16:14:30 am_listing.py [line:31] INFO 单击查询按钮
+2018-09-20 16:14:37 am_listing.py [line:36] INFO 当前窗口的标题是:全站检索 | 上海证券交易所
+2018-09-20 16:14:37 am_listing.py [line:40] INFO 点击 公告 链接
+2018-09-20 16:14:44 commonAction.py [line:30] INFO 当前窗口的标题是:关于中国兵器工业集团有限公司2018年面向合格投资者公开发行公司债券（第二期）上市的公告 | 上海证券交易所
+2018-09-20 16:14:44 commonAction.py [line:31] INFO 验证页面元素:中国兵器工业集团有限公司
+2018-09-20 16:14:44 commonAction.py [line:33] INFO 退出浏览器
+2018-09-20 17:15:01 tc_bdad_secretaries.py [line:25] INFO 场景：董秘考核业务 测试开始。。。
+2018-09-20 17:15:01 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-20 17:15:17 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-20 17:15:18 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/credibility/supervision/secretaries/
+2018-09-20 17:15:26 commonAction.py [line:22] INFO 当前窗口的标题是:董秘考核结果 | 上海证券交易所
+2018-09-20 17:15:26 am_secretaries.py [line:25] INFO 清除公司代码或简称输入框的内容
+2018-09-20 17:15:26 am_secretaries.py [line:28] INFO 输入公司代码：600000
+2018-09-20 17:15:29 am_secretaries.py [line:32] INFO 点击查询按钮
+2018-09-20 17:15:34 am_secretaries.py [line:36] INFO 点击公告链接
+2018-09-20 17:15:34 am_secretaries.py [line:39] INFO 切换窗口
+2018-09-20 17:15:43 am_secretaries.py [line:42] INFO 获取当前窗口的标题:公司概况 | 上海证券交易所
+2018-09-20 17:15:43 commonAction.py [line:30] INFO 当前窗口的标题是:董秘考核结果 | 上海证券交易所
+2018-09-20 17:15:43 commonAction.py [line:31] INFO 验证页面元素:公司概况
+2018-09-20 17:16:24 tc_bdad_secretaries.py [line:25] INFO 场景：董秘考核业务 测试开始。。。
+2018-09-20 17:16:24 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-20 17:16:28 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-20 17:16:29 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/credibility/supervision/secretaries/
+2018-09-20 17:16:47 commonAction.py [line:22] INFO 当前窗口的标题是:董秘考核结果 | 上海证券交易所
+2018-09-20 17:16:47 am_secretaries.py [line:25] INFO 清除公司代码或简称输入框的内容
+2018-09-20 17:16:47 am_secretaries.py [line:28] INFO 输入公司代码：600000
+2018-09-20 17:16:49 am_secretaries.py [line:32] INFO 点击查询按钮
+2018-09-20 17:16:54 am_secretaries.py [line:36] INFO 点击公告链接
+2018-09-20 17:16:56 commonAction.py [line:30] INFO 当前窗口的标题是:公司概况 | 上海证券交易所
+2018-09-20 17:16:56 commonAction.py [line:31] INFO 验证页面元素:公司概况
+2018-09-20 17:16:56 commonAction.py [line:33] INFO 退出浏览器

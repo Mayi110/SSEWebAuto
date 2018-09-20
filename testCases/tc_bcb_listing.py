@@ -1,31 +1,33 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2018/5/23 15:33
+# @Time    : 2018/9/20 15:20
 # @Author  : 'Robin Li
 # @Email   : liqinjia372135@163.com
 # @File    : tc_bcb_listing.py
 # @Software: PyCharm
 
-from appModules.am_disclosure.am_listedinfo.am_listing import listingAction
+from action.commonAction import *
+from appModules.am_disclosure.am_announcement.am_listing import listingAction
 from util.Log import *
 import unittest
-from action.commonAction import *
-from selenium import webdriver
-from time import sleep
+import ddt
 
+url = testUrl+'/disclosure/announcement/listing/'
 
+@ddt.ddt
 class listingCase(unittest.TestCase):
-    '''发行上市公告测试用例'''
+    '''上市/退市公告测试用例'''
 
-    def test_searchListingAnnouncementByAllCondition(self):
-        '''通过全部查询条件查询发行上市公告'''
+    @ddt.data(['chrome','兵器工业','中国兵器工业集团有限公司'])
+    @ddt.unpack
+    def test_searchListingByAllCondition(self,browserName,keyWord,expectData):
+        '''通过全部查询条件查询最新公告'''
         try:
-            logging.info('场景：发行上市公告页面通过全部条件查询公告测试开始。。。')
-            launchBrowser('chrome','http://www.sse.com.cn/disclosure/listedinfo/listing/')
-            sleep(5)
-            listingAction.searchRegularByAllCondition(webdriver,'600010','2018-05-09',
-                                                                '2018-05-23')
-            closeBrowser()
+            logging.info('场景：上市/退市公告业务 测试开始。。。')
+            launchBrowser(browserName,url)
+            listingAction.searchListingByAllCondition(webdriver,keyWord)
+            assertPageElement(expectData)
         except Exception as e:
             raise e
+    # test_searchAnnouncementByAllCondition()
 if __name__ == '__main__':
     unittest.main()
