@@ -42,17 +42,11 @@ class fundAnnouncementAction(object):
 
             logging.info('单击查询按钮')
             CP.searchButtonObj().click()
+            sleep(5)
 
             logging.info('点击基金信息公告链接')
             FP.fundAnnouncementLinkObj().click()
-
-            logging.info('切换窗口')
-            operate_window_handle()
             sleep(8)
-            logging.info('获取当前窗口的标题:%s'%get_title())
-
-            logging.info('退出浏览器')
-            close_browser()
         except Exception as e:
             raise e
 

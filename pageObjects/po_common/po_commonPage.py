@@ -18,6 +18,7 @@ class commonPage(object):
         self.commonOptions = self.parseCF.getItemsSection('commonPage')
 
     def inputCodeObj(self):
+        '''代码或者简称输入框'''
         try:
             locateType,locatorExpression = self.commonOptions['commonPage.inputCode'.lower()].split('>')
             elementObj = getElement(locateType,locatorExpression)
@@ -26,6 +27,7 @@ class commonPage(object):
             raise e
 
     def keyWordObj(self):
+        '''关键词输入框'''
         try:
             locateType,locatorExpression = self.commonOptions['commonPage.keyWord'.lower()].split('>')
             elementObj = getElement(locateType,locatorExpression)
@@ -34,6 +36,7 @@ class commonPage(object):
             raise e
 
     def announcementTypeObj(self,value):
+        '''公告类型下拉选择框'''
         try:
             javascript="document.getElementById('single_select_2').style.display='block';"
             js(javascript)
@@ -66,6 +69,7 @@ class commonPage(object):
             raise e
 
     def startDateObj(self):
+        '''开始日期选择框'''
         try:
             javascript = 'document.getElementById("start_date").removeAttribute("readonly");'
             js(javascript)
@@ -76,6 +80,7 @@ class commonPage(object):
             raise e
 
     def endDateObj(self):
+        '''结束日期选择框'''
         try:
             javascript = 'document.getElementById("end_date").removeAttribute("readonly");'
             js(javascript)
@@ -86,6 +91,7 @@ class commonPage(object):
             raise e
 
     def searchButtonObj(self):
+        '''查询按钮'''
         try:
             locateType,locatorExpression = self.commonOptions['commonPage.btnQuery'.lower()].split('>')
             elementObj = getElement(locateType,locatorExpression)

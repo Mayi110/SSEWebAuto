@@ -2300,3 +2300,152 @@
 2018-09-20 17:16:56 commonAction.py [line:30] INFO 当前窗口的标题是:公司概况 | 上海证券交易所
 2018-09-20 17:16:56 commonAction.py [line:31] INFO 验证页面元素:公司概况
 2018-09-20 17:16:56 commonAction.py [line:33] INFO 退出浏览器
+2018-09-21 15:19:56 tc_bdaf_change.py [line:27] INFO 场景：通过董监高持股变动全条件查询，进入详情页面 测试开始。。。
+2018-09-21 15:19:56 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-21 15:20:22 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-21 15:20:23 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/credibility/supervision/change/
+2018-09-21 15:20:46 commonAction.py [line:22] INFO 当前窗口的标题是:董事、监事、高级管理人员持有本公司股份变动情况 | 上海证券交易所
+2018-09-21 15:20:46 am_change.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-21 15:20:48 am_change.py [line:28] INFO 输入公司代码：603160
+2018-09-21 15:20:50 am_change.py [line:32] INFO 填写的用户姓名是：杨奇志
+2018-09-21 15:27:43 tc_bdaf_change.py [line:27] INFO 场景：通过董监高持股变动全条件查询，进入详情页面 测试开始。。。
+2018-09-21 15:27:43 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-21 15:27:47 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-21 15:27:48 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/credibility/supervision/change/
+2018-09-21 15:28:04 commonAction.py [line:22] INFO 当前窗口的标题是:董事、监事、高级管理人员持有本公司股份变动情况 | 上海证券交易所
+2018-09-21 15:28:04 am_change.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-21 15:28:06 am_change.py [line:28] INFO 输入公司代码：603160
+2018-09-21 15:28:08 am_change.py [line:32] INFO 清除姓名输入框的内容
+2018-09-21 15:30:58 tc_bdaf_change.py [line:27] INFO 场景：通过董监高持股变动全条件查询，进入详情页面 测试开始。。。
+2018-09-21 15:30:58 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-21 15:31:03 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-21 15:31:04 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/credibility/supervision/change/
+2018-09-21 15:33:31 commonAction.py [line:22] INFO 当前窗口的标题是:董事、监事、高级管理人员持有本公司股份变动情况 | 上海证券交易所
+2018-09-21 15:33:31 am_change.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-21 15:33:32 am_change.py [line:28] INFO 输入公司代码：603160
+2018-09-21 15:33:35 am_change.py [line:32] INFO 清除姓名输入框的内容
+2018-09-21 15:40:52 tc_bdaf_change.py [line:27] INFO 场景：通过董监高持股变动全条件查询，进入详情页面 测试开始。。。
+2018-09-21 15:40:52 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-21 15:40:56 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-21 15:40:57 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/credibility/supervision/change/
+2018-09-21 15:41:07 commonAction.py [line:22] INFO 当前窗口的标题是:董事、监事、高级管理人员持有本公司股份变动情况 | 上海证券交易所
+2018-09-21 15:41:07 am_change.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-21 15:41:08 am_change.py [line:28] INFO 输入公司代码：603160
+2018-09-21 15:41:10 am_change.py [line:32] INFO 清除姓名输入框的内容
+2018-09-21 15:43:18 tc_bdaf_change.py [line:27] INFO 场景：通过董监高持股变动全条件查询，进入详情页面 测试开始。。。
+2018-09-21 15:43:18 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-21 15:43:22 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-21 15:43:23 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/credibility/supervision/change/
+2018-09-21 15:43:34 commonAction.py [line:22] INFO 当前窗口的标题是:董事、监事、高级管理人员持有本公司股份变动情况 | 上海证券交易所
+2018-09-21 15:43:34 am_change.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-21 15:43:35 am_change.py [line:28] INFO 输入公司代码：603160
+2018-09-21 15:43:38 am_change.py [line:32] INFO 清除姓名输入框的内容
+2018-09-21 15:43:39 am_change.py [line:36] INFO 填写的用户姓名是：杨奇志
+2018-09-21 15:43:41 am_change.py [line:40] INFO 选择开始日期：2018-09-19
+2018-09-21 15:43:41 am_change.py [line:43] INFO 选择结束日期：2018-09-21
+2018-09-21 15:43:42 am_change.py [line:46] INFO 点击查询按钮
+2018-09-21 15:43:47 am_change.py [line:50] INFO 点击公司code链接
+2018-09-21 15:47:31 tc_bdaf_change.py [line:27] INFO 场景：通过董监高持股变动全条件查询，进入详情页面 测试开始。。。
+2018-09-21 15:47:31 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-21 15:47:36 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-21 15:47:37 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/credibility/supervision/change/
+2018-09-21 15:48:03 commonAction.py [line:22] INFO 当前窗口的标题是:董事、监事、高级管理人员持有本公司股份变动情况 | 上海证券交易所
+2018-09-21 15:48:03 am_change.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-21 15:48:04 am_change.py [line:28] INFO 输入公司代码：603160
+2018-09-21 15:48:06 am_change.py [line:32] INFO 清除姓名输入框的内容
+2018-09-21 15:48:08 am_change.py [line:36] INFO 填写的用户姓名是：杨奇志
+2018-09-21 15:48:10 am_change.py [line:40] INFO 清除开始日期存在的内容
+2018-09-21 15:48:11 am_change.py [line:44] INFO 选择开始日期：2018-09-19
+2018-09-21 15:48:12 am_change.py [line:48] INFO 清除结束日期存在的内容
+2018-09-21 15:48:13 am_change.py [line:52] INFO 选择结束日期：2018-09-21
+2018-09-21 15:48:15 am_change.py [line:56] INFO 点击查询按钮
+2018-09-21 15:48:20 am_change.py [line:60] INFO 点击公司code链接
+2018-09-21 15:48:27 am_change.py [line:64] INFO 获取当前窗口的标题:公司概况 | 上海证券交易所
+2018-09-21 15:48:27 commonAction.py [line:30] INFO 当前窗口的标题是:公司概况 | 上海证券交易所
+2018-09-21 15:48:27 commonAction.py [line:31] INFO 验证页面元素:深圳市汇顶科技股份有限公司
+2018-09-21 15:48:27 commonAction.py [line:33] INFO 退出浏览器
+2018-09-21 16:32:28 tc_bfa_fundAnnouncement.py [line:27] INFO 场景：基金公告业务 测试开始。。。
+2018-09-21 16:32:28 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-21 16:32:32 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-21 16:32:33 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-21 16:33:02 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-21 16:33:07 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-21 16:33:07 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501023
+2018-09-21 16:33:10 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-21 16:33:12 am_fundAnnouncement.py [line:35] INFO 输入开始时间：2018-09-15
+2018-09-21 16:33:14 am_fundAnnouncement.py [line:39] INFO 输入结束时间：2018-09-21
+2018-09-21 16:33:17 am_fundAnnouncement.py [line:43] INFO 单击查询按钮
+2018-09-21 16:33:17 am_fundAnnouncement.py [line:46] INFO 点击基金信息公告链接
+2018-09-21 16:40:11 tc_bfa_fundAnnouncement.py [line:27] INFO 场景：基金公告业务 测试开始。。。
+2018-09-21 16:40:11 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-21 16:40:15 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-21 16:40:16 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-21 16:40:32 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-21 16:40:37 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-21 16:40:37 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501023
+2018-09-21 16:40:39 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-21 16:40:42 am_fundAnnouncement.py [line:35] INFO 输入开始时间：2018-09-15
+2018-09-21 16:40:44 am_fundAnnouncement.py [line:39] INFO 输入结束时间：2018-09-21
+2018-09-21 16:40:46 am_fundAnnouncement.py [line:43] INFO 单击查询按钮
+2018-09-21 16:40:46 am_fundAnnouncement.py [line:46] INFO 点击基金信息公告链接
+2018-09-21 16:40:47 am_fundAnnouncement.py [line:49] INFO 切换窗口
+2018-09-21 16:40:55 am_fundAnnouncement.py [line:52] INFO 获取当前窗口的标题:最新基金公告 | 上海证券交易所
+2018-09-21 16:40:55 am_fundAnnouncement.py [line:54] INFO 退出浏览器
+2018-09-21 16:42:30 tc_bfa_fundAnnouncement.py [line:27] INFO 场景：基金公告业务 测试开始。。。
+2018-09-21 16:42:30 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-21 16:42:34 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-21 16:42:35 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-21 16:42:54 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-21 16:42:59 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-21 16:42:59 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501023
+2018-09-21 16:43:01 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-21 16:43:04 am_fundAnnouncement.py [line:35] INFO 输入开始时间：2018-09-15
+2018-09-21 16:43:06 am_fundAnnouncement.py [line:39] INFO 输入结束时间：2018-09-21
+2018-09-21 16:43:08 am_fundAnnouncement.py [line:43] INFO 单击查询按钮
+2018-09-21 16:43:08 am_fundAnnouncement.py [line:46] INFO 点击基金信息公告链接
+2018-09-21 16:44:49 tc_bfa_fundAnnouncement.py [line:27] INFO 场景：基金公告业务 测试开始。。。
+2018-09-21 16:44:49 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-21 16:44:53 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-21 16:44:54 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-21 16:45:13 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-21 16:45:19 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-21 16:45:19 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501023
+2018-09-21 16:45:21 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-21 16:53:14 tc_bfa_fundAnnouncement.py [line:27] INFO 场景：基金公告业务 测试开始。。。
+2018-09-21 16:53:14 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-21 16:53:19 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-21 16:53:20 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-21 16:53:40 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-21 16:53:45 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-21 16:53:45 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501023
+2018-09-21 16:53:47 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-21 16:53:49 am_fundAnnouncement.py [line:35] INFO 输入开始时间：2018-09-15
+2018-09-21 16:53:52 am_fundAnnouncement.py [line:39] INFO 输入结束时间：2018-09-21
+2018-09-21 16:53:54 am_fundAnnouncement.py [line:43] INFO 单击查询按钮
+2018-09-21 16:53:54 am_fundAnnouncement.py [line:46] INFO 点击基金信息公告链接
+2018-09-21 16:53:55 am_fundAnnouncement.py [line:49] INFO 获取当前窗口的标题:最新基金公告 | 上海证券交易所
+2018-09-21 16:53:55 am_fundAnnouncement.py [line:50] INFO 退出浏览器
+2018-09-21 16:54:54 tc_bfa_fundAnnouncement.py [line:27] INFO 场景：基金公告业务 测试开始。。。
+2018-09-21 16:54:54 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-21 16:55:46 tc_bfa_fundAnnouncement.py [line:27] INFO 场景：基金公告业务 测试开始。。。
+2018-09-21 16:55:46 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-21 16:55:50 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-21 16:55:52 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-21 16:56:55 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-21 16:57:00 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-21 16:57:00 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501023
+2018-09-21 16:57:02 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-21 16:59:12 tc_bfa_fundAnnouncement.py [line:27] INFO 场景：基金公告业务 测试开始。。。
+2018-09-21 16:59:12 commonAction.py [line:15] INFO 打开浏览器：chrome
+2018-09-21 16:59:16 commonAction.py [line:17] INFO 浏览器最大化
+2018-09-21 16:59:17 commonAction.py [line:19] INFO 访问被测地址：http://www.sse.com.cn/disclosure/fund/announcement/
+2018-09-21 16:59:43 commonAction.py [line:22] INFO 当前窗口的标题是:最新基金公告 | 上海证券交易所
+2018-09-21 16:59:48 am_fundAnnouncement.py [line:24] INFO 清除公司代码或简称输入框的内容
+2018-09-21 16:59:48 am_fundAnnouncement.py [line:27] INFO 输入公司代码：501023
+2018-09-21 16:59:50 am_fundAnnouncement.py [line:31] INFO 选择基金公告类型：lsgg
+2018-09-21 16:59:52 am_fundAnnouncement.py [line:35] INFO 输入开始时间：2018-09-15
+2018-09-21 16:59:55 am_fundAnnouncement.py [line:39] INFO 输入结束时间：2018-09-21
+2018-09-21 16:59:57 am_fundAnnouncement.py [line:43] INFO 单击查询按钮
+2018-09-21 17:00:02 am_fundAnnouncement.py [line:47] INFO 点击基金信息公告链接
+2018-09-21 17:00:18 commonAction.py [line:42] INFO 当前窗口的标题是:
+2018-09-21 17:00:18 commonAction.py [line:43] INFO 退出浏览器

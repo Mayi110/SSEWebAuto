@@ -123,9 +123,9 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">上交所官网自动化测试报告</h1>
 <p class='attribute'><strong>测试人员 : </strong> 李勤加</p>
-<p class='attribute'><strong>开始时间 : </strong> 2018-09-20 17:14:59</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:45.071578</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 1，失败 1，通过率= 0.00%</p>
+<p class='attribute'><strong>开始时间 : </strong> 2018-09-21 16:53:14</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:48.692785</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 1，错误 1，通过率= 0.00%</p>
 
 <p class='description'>环境：win7；浏览器：Chrome</p>
 </div>
@@ -134,7 +134,7 @@ function html_escape(s) {
 
 <p id='show_detail_line'>
 <a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 0.00% }</a>
-<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 1 }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 0 }</a>
 <a class="btn btn-success" href='javascript:showCase(2)'>通过{ 0 }</a>
 <a class="btn btn-info" href='javascript:showCase(3)'>所有{ 1 }</a>
 </p>
@@ -156,48 +156,59 @@ function html_escape(s) {
     <td>详细</td>
 </tr>
 
-<tr class='failClass warning'>
-    <td>tc_bdad_secretaries.secretariesCase: 董秘考核结果测试用例</td>
+<tr class='errorClass warning'>
+    <td>tc_bfa_fundAnnouncement.fundAnnouncementCase: 基金公告测试用例集合</td>
     <td class="text-center">1</td>
     <td class="text-center">0</td>
-    <td class="text-center">1</td>
     <td class="text-center">0</td>
+    <td class="text-center">1</td>
     <td class="text-center"><a href="javascript:showClassDetail('c1',1)" class="detail" id='c1'>详细</a></td>
 </tr>
 
 <tr id='ft1_1' class='none'>
-    <td class='failCase'><div class='testcase'>test_searchSecretariesByAllCondition_1___chrome____600000____公司概况__: 通过全部查询条件查询最新公告</div></td>
+    <td class='errorCase'><div class='testcase'>test_searchFundAnnouncementByAllCondition_1___chrome____501023____lsgg____2018_09_15____2018_09_21__: 通过全部查询条件查询基金公告数据</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
-    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>失败</button>
+    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>错误</button>
     <div id='div_ft1_1' class="collapse">  -->
 
     <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_1'>失败</button>
+    <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft1_1'>错误</button>
     <div id='div_ft1_1' class="collapse in">
     <pre>
     
 ft1_1: Traceback (most recent call last):
-  File "E:\GithubProject\SSEWebAuto\util\ObjectMap.py", line 150, in assert_string_in_pageSource
-    assert assertString in driver.page_source,'%s not found in page source!'%assertString
-AssertionError: 公司概况 not found in page source!
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
   File "C:\Python35\lib\site-packages\ddt.py", line 145, in wrapper
     return func(self, *args, **kwargs)
-  File "E:\GithubProject\SSEWebAuto\testCases\tc_bdad_secretaries.py", line 30, in test_searchSecretariesByAllCondition
+  File "E:\GithubProject\SSEWebAuto\testCases\tc_bfa_fundAnnouncement.py", line 34, in test_searchFundAnnouncementByAllCondition
     raise e
-  File "E:\GithubProject\SSEWebAuto\testCases\tc_bdad_secretaries.py", line 28, in test_searchSecretariesByAllCondition
-    assertPageElement(expectData)
-  File "E:\GithubProject\SSEWebAuto\action\commonAction.py", line 36, in assertPageElement
+  File "E:\GithubProject\SSEWebAuto\testCases\tc_bfa_fundAnnouncement.py", line 32, in test_searchFundAnnouncementByAllCondition
+    closeBrowser()
+  File "E:\GithubProject\SSEWebAuto\action\commonAction.py", line 46, in closeBrowser
     raise e
-  File "E:\GithubProject\SSEWebAuto\action\commonAction.py", line 32, in assertPageElement
-    assert_string_in_pageSource(assertString)
-  File "E:\GithubProject\SSEWebAuto\util\ObjectMap.py", line 153, in assert_string_in_pageSource
-    raise AssertionError(e)
-AssertionError: 公司概况 not found in page source!
+  File "E:\GithubProject\SSEWebAuto\action\commonAction.py", line 41, in closeBrowser
+    operate_window_handle()
+  File "E:\GithubProject\SSEWebAuto\util\ObjectMap.py", line 170, in operate_window_handle
+    raise e
+  File "E:\GithubProject\SSEWebAuto\util\ObjectMap.py", line 164, in operate_window_handle
+    now_handle = driver.current_window_handle
+  File "C:\Python35\lib\site-packages\selenium-3.7.0-py3.5.egg\selenium\webdriver\remote\webdriver.py", line 618, in current_window_handle
+    return self.execute(Command.GET_CURRENT_WINDOW_HANDLE)['value']
+  File "C:\Python35\lib\site-packages\selenium-3.7.0-py3.5.egg\selenium\webdriver\remote\webdriver.py", line 306, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Python35\lib\site-packages\selenium-3.7.0-py3.5.egg\selenium\webdriver\remote\remote_connection.py", line 460, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Python35\lib\site-packages\selenium-3.7.0-py3.5.egg\selenium\webdriver\remote\remote_connection.py", line 484, in _request
+    resp = self._conn.getresponse()
+  File "C:\Python35\lib\http\client.py", line 1174, in getresponse
+    response.begin()
+  File "C:\Python35\lib\http\client.py", line 282, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python35\lib\http\client.py", line 243, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Python35\lib\socket.py", line 571, in readinto
+    return self._sock.recv_into(b)
+ConnectionAbortedError: [WinError 10053] 您的主机中的软件中止了一个已建立的连接。
 
 
     </pre>
@@ -209,8 +220,8 @@ AssertionError: 公司概况 not found in page source!
     <td>总计</td>
     <td>1</td>
     <td>0</td>
-    <td>1</td>
     <td>0</td>
+    <td>1</td>
     <td>通过率：0.00%</td>
 </tr>
 </table>

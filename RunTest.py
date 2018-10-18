@@ -13,7 +13,7 @@ report_path = os.path.join(os.getcwd(),'testReport')
 case_path = os.path.join(os.getcwd(),'testCases')
 
 def all_case():
-    discover = unittest.defaultTestLoader.discover(case_path,pattern='tc_bdad_secretaries.py')
+    discover = unittest.defaultTestLoader.discover(case_path,pattern='tc_bfa_fundAnnouncement.py')
     return discover
 
 

@@ -123,8 +123,8 @@ function html_escape(s) {
 <div class='heading'>
 <h1 style="font-family: Microsoft YaHei">上交所官网自动化测试报告</h1>
 <p class='attribute'><strong>测试人员 : </strong> 李勤加</p>
-<p class='attribute'><strong>开始时间 : </strong> 2018-09-19 14:12:05</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.193011</p>
+<p class='attribute'><strong>开始时间 : </strong> 2018-09-21 16:44:48</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:32.422855</p>
 <p class='attribute'><strong>测试结果 : </strong> 共 1，错误 1，通过率= 0.00%</p>
 
 <p class='description'>环境：win7；浏览器：Chrome</p>
@@ -157,7 +157,7 @@ function html_escape(s) {
 </tr>
 
 <tr class='errorClass warning'>
-    <td>tc_bca_general.generalCase: 一般公告测试用例集合</td>
+    <td>tc_bfa_fundAnnouncement.fundAnnouncementCase: 基金公告测试用例集合</td>
     <td class="text-center">1</td>
     <td class="text-center">0</td>
     <td class="text-center">0</td>
@@ -166,7 +166,7 @@ function html_escape(s) {
 </tr>
 
 <tr id='ft1_1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_searchGeneralByAllCondition: 通过全条件查询一般公告信息</div></td>
+    <td class='errorCase'><div class='testcase'>test_searchFundAnnouncementByAllCondition_1___chrome____501023____lsgg____2018_09_15____2018_09_21__: 通过全部查询条件查询基金公告数据</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
     <button id='btn_ft1_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft1_1'>错误</button>
@@ -177,7 +177,29 @@ function html_escape(s) {
     <div id='div_ft1_1' class="collapse in">
     <pre>
     
-ft1_1: TypeError: test_searchGeneralByAllCondition() missing 1 required positional argument: 'url'
+ft1_1: Traceback (most recent call last):
+  File "C:\Python35\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File "E:\GithubProject\SSEWebAuto\testCases\tc_bfa_fundAnnouncement.py", line 34, in test_searchFundAnnouncementByAllCondition
+    raise e
+  File "E:\GithubProject\SSEWebAuto\testCases\tc_bfa_fundAnnouncement.py", line 30, in test_searchFundAnnouncementByAllCondition
+    fundAnnouncementAction.searchFundAnnouncementByAll(webdriver,companyCode,select,startDate,endDate)
+  File "E:\GithubProject\SSEWebAuto\appModules\am_disclosure\am_fund\am_fundAnnouncement.py", line 53, in searchFundAnnouncementByAll
+    raise e
+  File "E:\GithubProject\SSEWebAuto\appModules\am_disclosure\am_fund\am_fundAnnouncement.py", line 32, in searchFundAnnouncementByAll
+    CP.singleSelect2Obj(select)
+  File "E:\GithubProject\SSEWebAuto\pageObjects\po_common\po_commonPage.py", line 69, in singleSelect2Obj
+    raise e
+  File "E:\GithubProject\SSEWebAuto\pageObjects\po_common\po_commonPage.py", line 66, in singleSelect2Obj
+    elementObj = selectByValue(locateType,locatorExpression,value)
+  File "E:\GithubProject\SSEWebAuto\util\ObjectMap.py", line 201, in selectByValue
+    raise e
+  File "E:\GithubProject\SSEWebAuto\util\ObjectMap.py", line 199, in selectByValue
+    Select(elementObj).select_by_value(value)
+  File "C:\Python35\lib\site-packages\selenium-3.7.0-py3.5.egg\selenium\webdriver\support\select.py", line 87, in select_by_value
+    raise NoSuchElementException("Cannot locate option with value: %s" % value)
+selenium.common.exceptions.NoSuchElementException: Message: Cannot locate option with value: lsgg
+
 
 
     </pre>
